@@ -1,0 +1,25 @@
+function main(msg){
+    
+  const http = require('http');
+  const API_KEY = '85324cac';
+  const prodname = msg.prodname;
+  var reqUrl = encodeURI(`http://www.omdbapi.com/?t=${prodname}&apikey=${API_KEY}`);
+
+return new Promise(function(resolve, reject) {
+    http.get(reqUrl, (responseFromAPI) => {
+        let completeResponse = '';
+        responseFromAPI.on('data', (chunk) => {
+               completeResponse += chunk;
+               let movie = JSON.parse(completeResponse);
+               let movie_info = `${movie.Title} is a ${movie.Genre} movie starring ${movie.Actors}, released in ${movie.Year}. It was directed by ${movie.Director}.`;
+               console.log(movie_info);
+               resolve({movie_info});
+        })
+        responseFromAPI.on('error', (error) => {
+            console.log(error);
+            reject(error);
+        });
+    });
+});
+
+}
