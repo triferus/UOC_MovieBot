@@ -9,4 +9,7 @@ The IBM_Watson folder contains the IBM assistant bot support files:
 - .JSON archives correspond to the bot itself and can be uploaded as a skill to any IBM assistant
 - .txt archives refer to the different web actions created
 
+The IBM_Watson folder contains the IBM assistant bot support files:
+- .JSON archives correspond to the bot itself and can be uploaded as a skill to any IBM assistant
+- .txt archives refer to the different web actions created
 
