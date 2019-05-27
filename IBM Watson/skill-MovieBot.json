@@ -2,86 +2,143 @@
   "name": "MovieBot",
   "intents": [
     {
-      "intent": "ST_Negative_Feedback",
-      "examples": [
-        {
-          "text": "Everyone hates you"
-        },
-        {
-          "text": "I do not like you"
-        },
-        {
-          "text": "Hate you"
-        },
-        {
-          "text": "Do not like you?"
-        },
-        {
-          "text": "You're too stupid"
-        },
-        {
-          "text": "You're really irritating"
-        },
-        {
-          "text": "You're really frustrating"
-        },
-        {
-          "text": "You do not seem smart"
-        },
-        {
-          "text": "You are very frustrating"
-        },
-        {
-          "text": "You are on my nerves"
-        },
-        {
-          "text": "You are having delusions"
-        },
-        {
-          "text": "Why are you stupid?"
-        },
-        {
-          "text": "Why are you so annoying?"
-        },
-        {
-          "text": "Stupid"
-        },
-        {
-          "text": "Robots are stupid"
-        },
-        {
-          "text": "Robots are boring"
-        },
-        {
-          "text": "Quit annoying me"
-        },
-        {
-          "text": "It is annoying"
-        },
-        {
-          "text": "I hate you"
-        },
-        {
-          "text": "I hate this!"
-        }
-      ],
-      "description": "Express unfavorable feedback."
-    },
-    {
-      "intent": "More_Info",
-      "examples": [
-        {
-          "text": "MoreInfo"
-        },
-        {
-          "text": "More information on the product please"
-        }
-      ],
-      "description": "The user wants more information about the product selected"
-    },
-    {
       "intent": "Product_name",
       "examples": [
+        {
+          "text": "apocalypse now redux"
+        },
+        {
+          "text": "lala added"
+        },
+        {
+          "text": "beethoven"
+        },
+        {
+          "text": "blancanieves"
+        },
+        {
+          "text": "a clockwork orange"
+        },
+        {
+          "text": "scarlett johansson"
+        },
+        {
+          "text": "clarie danes"
+        },
+        {
+          "text": "tom cruise"
+        },
+        {
+          "text": "mitrix"
+        },
+        {
+          "text": "the godfather"
+        },
+        {
+          "text": "Alfred Hitchcock"
+        },
+        {
+          "text": "Jamie Lee Curtis"
+        },
+        {
+          "text": "Darren Aronofsky"
+        },
+        {
+          "text": "Álex de la Iglesia"
+        },
+        {
+          "text": "tim burton"
+        },
+        {
+          "text": "Ethan Jesse Coen"
+        },
+        {
+          "text": "Joel David Coen"
+        },
+        {
+          "text": "Sam Mendes"
+        },
+        {
+          "text": "James Cameron"
+        },
+        {
+          "text": "wes anderson"
+        },
+        {
+          "text": "Woody Allen"
+        },
+        {
+          "text": "Kim Ki-duk"
+        },
+        {
+          "text": "Takeshi Kitano"
+        },
+        {
+          "text": "Nicolas Winding Refn"
+        },
+        {
+          "text": "christopher nolan"
+        },
+        {
+          "text": "Martin Scorsese"
+        },
+        {
+          "text": "Quentin Tarantino"
+        },
+        {
+          "text": "Oliver Stone"
+        },
+        {
+          "text": "blade runner"
+        },
+        {
+          "text": "Skyfall"
+        },
+        {
+          "text": "Stanley Kubrick"
+        },
+        {
+          "text": "Paul Auster"
+        },
+        {
+          "text": "tom hardy"
+        },
+        {
+          "text": "francis ford coppola"
+        },
+        {
+          "text": "Ang Lee"
+        },
+        {
+          "text": "Julianne Moore"
+        },
+        {
+          "text": "Denis Villeneuve"
+        },
+        {
+          "text": "nicholas cage"
+        },
+        {
+          "text": "james can"
+        },
+        {
+          "text": "a hard day's night"
+        },
+        {
+          "text": "lewis hamilton"
+        },
+        {
+          "text": "la la land"
+        },
+        {
+          "text": "nicole kidman"
+        },
+        {
+          "text": "The @Product_type is @Product_name"
+        },
+        {
+          "text": "The movie name is titanic"
+        },
         {
           "text": "Its name is titanic"
         },
@@ -134,127 +191,217 @@
           "text": "everything you wanted to know about sex"
         },
         {
-          "text": "nicholas cage"
+          "text": "i want some information about a movie"
         },
         {
-          "text": "tetanic"
+          "text": "metrix"
         },
         {
-          "text": "nicole kidman"
-        },
-        {
-          "text": "tom cruise"
-        },
-        {
-          "text": "clarie danes"
-        },
-        {
-          "text": "scarlett johansson"
-        },
-        {
-          "text": "a clockwork orange"
-        },
-        {
-          "text": "blancanieves"
-        },
-        {
-          "text": "beethoven"
-        },
-        {
-          "text": "lala added"
-        },
-        {
-          "text": "apocalypse now redux"
-        },
-        {
-          "text": "Star wars 23 ll ll"
-        },
-        {
-          "text": "virignia o'rally"
-        },
-        {
-          "text": "space jam"
-        },
-        {
-          "text": "peter o'toole"
-        },
-        {
-          "text": "julia roberts"
+          "text": "Agnès Varda"
         },
         {
           "text": "Luis bundle"
         },
         {
-          "text": "james can"
+          "text": "julia roberts"
         },
         {
-          "text": "a hard day's night"
+          "text": "peter o'toole"
         },
         {
-          "text": "lewis hamilton"
+          "text": "space jam"
         },
         {
-          "text": "la la land"
+          "text": "virignia o'rally"
         },
         {
-          "text": "i want some information about a movie"
-        },
-        {
-          "text": "The @Product_type is @Product_name"
-        },
-        {
-          "text": "The movie name is titanic"
+          "text": "Star wars 23 ll ll"
         }
       ],
-      "description": ""
+      "description": "User provides the product name"
+    },
+    {
+      "intent": "Transfer",
+      "examples": [
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Send me somewhere else please"
+        },
+        {
+          "text": "I want to try a different source"
+        },
+        {
+          "text": "Please I need a new source of data"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "I want to check somewhere else"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I am not happy"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "ST_Quote",
+      "examples": [
+        {
+          "text": "Another quote, please"
+        },
+        {
+          "text": "good, another one!"
+        },
+        {
+          "text": "Please, one more!"
+        },
+        {
+          "text": "I want a nice sentence from a movie"
+        },
+        {
+          "text": "Quote something"
+        },
+        {
+          "text": "Another quote"
+        },
+        {
+          "text": "Give me a movie sentence"
+        },
+        {
+          "text": "i need a quotte"
+        },
+        {
+          "text": "Give me a sentence from your films"
+        }
+      ],
+      "description": "The user wants a quote"
     },
     {
       "intent": "ST_About_You",
       "examples": [
         {
-          "text": "About you"
-        },
-        {
-          "text": "Why are you here?"
-        },
-        {
-          "text": "Who are you?"
-        },
-        {
-          "text": "Where were you born?"
-        },
-        {
-          "text": "Where are you from?"
-        },
-        {
-          "text": "What's your name?"
-        },
-        {
-          "text": "What should I know about you?"
+          "text": "Can I use another language?"
         },
         {
           "text": "What languages do you speak?"
         },
         {
-          "text": "Tell me something about yourself"
-        },
-        {
-          "text": "Tell me about your life"
-        },
-        {
-          "text": "Let us talk about you"
-        },
-        {
-          "text": "Introduce your self"
-        },
-        {
-          "text": "I want to set up the chat bot for my shop"
-        },
-        {
-          "text": "How old are you?"
-        },
-        {
           "text": "How do you function?"
+        },
+        {
+          "text": "What should I know about you?"
         },
         {
           "text": "How can I configure you?"
@@ -269,19 +416,175 @@
           "text": "Describe your self"
         },
         {
-          "text": "Can I use another language?"
+          "text": "About you"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Introduce your self"
         }
       ],
       "description": "Request generic personal attributes."
     },
     {
+      "intent": "ST_Positive_Feedback",
+      "examples": [
+        {
+          "text": "good one"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
       "intent": "ST_Agent_Capabilities",
       "examples": [
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
         {
           "text": "Tell me something"
         },
         {
-          "text": "How do I use you?"
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Do you speak english?"
+        },
+        {
+          "text": "What are you able to deal with?"
         },
         {
           "text": "I do not know what to ask"
@@ -314,508 +617,76 @@
           "text": "I'd like to know what type of questions you can answer for me."
         },
         {
-          "text": "Is there anything you can help me with?"
-        },
-        {
-          "text": "Tell me about what kind of things you do?"
-        },
-        {
-          "text": "What are my options that you can help with?"
-        },
-        {
-          "text": "What are my options?"
-        },
-        {
-          "text": "What are you able to deal with?"
-        },
-        {
-          "text": "What are you able to understand?"
-        },
-        {
-          "text": "What are you capable of?"
-        },
-        {
-          "text": "What are you good at?"
-        },
-        {
-          "text": "What are you used for?"
-        },
-        {
-          "text": "What are your skills?"
-        },
-        {
-          "text": "What can I ask you to do?"
-        },
-        {
-          "text": "What do you do?"
-        },
-        {
-          "text": "What do you handle?"
-        },
-        {
-          "text": "What else can you help me with?"
-        },
-        {
-          "text": "What features are in here?"
-        },
-        {
-          "text": "What is this 4?"
-        },
-        {
-          "text": "What kinds of things can you do?"
-        },
-        {
-          "text": "Where can I find the frequently asked questions?"
-        },
-        {
           "text": "do you speak englihs="
-        },
-        {
-          "text": "Do you speak english?"
         }
       ],
       "description": "Request capabilities of the bot."
     },
     {
-      "intent": "General_Connect_to_Agent",
-      "examples": [
-        {
-          "text": "I don't want to talk to you"
-        },
-        {
-          "text": "I don't want to talk to a bot."
-        },
-        {
-          "text": "How can I skip the recorded menu and go straight to a live person?"
-        },
-        {
-          "text": "Hi can you transfer me"
-        },
-        {
-          "text": "Do not want a robot?"
-        },
-        {
-          "text": "Customer service representative please."
-        },
-        {
-          "text": "Could you please transfer me to your master?"
-        },
-        {
-          "text": "Contact person"
-        },
-        {
-          "text": "Connect me to a live operator please."
-        },
-        {
-          "text": "Can you connect me with a real person?"
-        },
-        {
-          "text": "Can you assist me to connect to an agent?"
-        },
-        {
-          "text": "Can I talk to someone?"
-        },
-        {
-          "text": "Can I speak with somebody?"
-        },
-        {
-          "text": "Can I speak to an advisor?"
-        },
-        {
-          "text": "Call agent"
-        },
-        {
-          "text": "Yes, take me to a real person"
-        },
-        {
-          "text": "I want an agent to help me"
-        },
-        {
-          "text": "I want to talk to a person"
-        },
-        {
-          "text": "I would like to speak to a human"
-        },
-        {
-          "text": "I would like to speak to someone"
-        },
-        {
-          "text": "Is there anyone there I can actually talk to for real?"
-        },
-        {
-          "text": "Need help from human"
-        },
-        {
-          "text": "Operator please"
-        },
-        {
-          "text": "Please assist me to get to an agent"
-        },
-        {
-          "text": "Please connect me to a live agent"
-        },
-        {
-          "text": "I want agent"
-        },
-        {
-          "text": "Please let me talk to a human being."
-        },
-        {
-          "text": "Pls connect"
-        },
-        {
-          "text": "Put me through to someone"
-        },
-        {
-          "text": "Send me to an agent"
-        },
-        {
-          "text": "Where is the closest agent?"
-        },
-        {
-          "text": "Can I speak to a live person?"
-        },
-        {
-          "text": "Can I connect to an agent?"
-        },
-        {
-          "text": "Can I speak to a human please?"
-        },
-        {
-          "text": "A real agent, please."
-        },
-        {
-          "text": "Agent help"
-        },
-        {
-          "text": "I want a manager"
-        },
-        {
-          "text": "I need to speak to a representative. How would I go about doing so?"
-        }
-      ],
-      "description": "Request a human agent."
-    },
-    {
-      "intent": "Product_type",
-      "examples": [
-        {
-          "text": "information about an actor"
-        },
-        {
-          "text": "I want information about a film"
-        },
-        {
-          "text": "information about a movie please"
-        },
-        {
-          "text": "Actress"
-        },
-        {
-          "text": "I want information about an actor"
-        },
-        {
-          "text": "Movie"
-        },
-        {
-          "text": "actor/actress"
-        },
-        {
-          "text": "Get me some data about a movie"
-        },
-        {
-          "text": "Fetch me some information about an actor"
-        },
-        {
-          "text": "I want data on a movie"
-        },
-        {
-          "text": "Film"
-        },
-        {
-          "text": "information about a movie"
-        },
-        {
-          "text": "Actor"
-        },
-        {
-          "text": "information about a movie pleaase"
-        }
-      ],
-      "description": ""
-    },
-    {
       "intent": "Recommendation_mode",
       "examples": [
-        {
-          "text": "give me a movie"
-        },
         {
           "text": "Recommend me something"
         },
         {
-          "text": "I want advice"
+          "text": "I want a recommendation"
+        },
+        {
+          "text": "i want movies"
         },
         {
           "text": "Advise me on products"
         },
         {
-          "text": "I want a recommendation"
+          "text": "give me a movie"
+        },
+        {
+          "text": "I want advice"
         }
       ],
       "description": "The user wants a recommendation"
     },
     {
-      "intent": "ST_Positive_Feedback",
-      "examples": [
-        {
-          "text": "You gave me exactly what I need!"
-        },
-        {
-          "text": "You are wonderful"
-        },
-        {
-          "text": "You are the best"
-        },
-        {
-          "text": "You are great"
-        },
-        {
-          "text": "You are awesome"
-        },
-        {
-          "text": "This is so cool"
-        },
-        {
-          "text": "This is great"
-        },
-        {
-          "text": "This is good"
-        },
-        {
-          "text": "Thank you"
-        },
-        {
-          "text": "Ok thank you"
-        },
-        {
-          "text": "Love your work"
-        },
-        {
-          "text": "I'm looking forward to working with you again! :)"
-        },
-        {
-          "text": "I like what you did there! :)"
-        },
-        {
-          "text": "How cool is this?"
-        },
-        {
-          "text": "Brilliant!"
-        },
-        {
-          "text": "Can't believe you are that good"
-        },
-        {
-          "text": "good one"
-        },
-        {
-          "text": "You've been so helpful :)"
-        },
-        {
-          "text": "You're a genius!"
-        },
-        {
-          "text": "You the man"
-        }
-      ],
-      "description": "Express positive sentiment or gratitude."
-    },
-    {
-      "intent": "Information_mode",
-      "examples": [
-        {
-          "text": "I have a question"
-        },
-        {
-          "text": "Go on with another product"
-        },
-        {
-          "text": "Let's try with another product"
-        },
-        {
-          "text": "I want to ty another product"
-        },
-        {
-          "text": "Try another product"
-        },
-        {
-          "text": "Query about your products"
-        },
-        {
-          "text": "I need some support about your products, please"
-        },
-        {
-          "text": "i want some information"
-        },
-        {
-          "text": "information about alfredo di stefano"
-        },
-        {
-          "text": "i need support with la la land"
-        },
-        {
-          "text": "Please help me with a product"
-        },
-        {
-          "text": "Information about your offers"
-        },
-        {
-          "text": "Information please"
-        },
-        {
-          "text": "Info"
-        },
-        {
-          "text": "I have some doubts regarding a product"
-        }
-      ],
-      "description": "The user has questions"
-    },
-    {
-      "intent": "ST_Human_or_Bot",
-      "examples": [
-        {
-          "text": "Am I talking to a Bot?"
-        },
-        {
-          "text": "Am I talking to Watson?"
-        },
-        {
-          "text": "Am I chatting with a human?"
-        },
-        {
-          "text": "Tell me, are you a human or no?"
-        },
-        {
-          "text": "Is this a computer?"
-        },
-        {
-          "text": "How can you prove you are a human?"
-        },
-        {
-          "text": "Are you real?"
-        },
-        {
-          "text": "Are you human?"
-        },
-        {
-          "text": "Are you even real?"
-        },
-        {
-          "text": "Are you a robot?"
-        },
-        {
-          "text": "Are you a human or a bot?"
-        },
-        {
-          "text": "Am I talking to a person or am I talking to an AI?"
-        }
-      ],
-      "description": "Ask if speaking to a human or a bot."
-    },
-    {
       "intent": "Ending",
       "examples": [
         {
-          "text": "Have a nice day?"
-        },
-        {
-          "text": "Hey bot go away"
-        },
-        {
-          "text": "I am leaving"
-        },
-        {
-          "text": "I am out of here"
-        },
-        {
-          "text": "I d like to stop doing this"
-        },
-        {
-          "text": "I have got to go"
-        },
-        {
-          "text": "I want to quit"
+          "text": "Thanks, bye!"
         },
         {
           "text": "I'm done"
         },
         {
-          "text": "Im done"
+          "text": "I have got to go"
         },
         {
-          "text": "Go off"
+          "text": "I d like to stop doing this"
         },
         {
-          "text": "Im good thank you"
+          "text": "I am out of here"
         },
         {
-          "text": "I'm leaving now"
+          "text": "I am leaving"
         },
         {
-          "text": "It was nice chatting with you"
+          "text": "Hey bot go away"
         },
         {
-          "text": "Ok goodbye"
+          "text": "Have a nice day?"
         },
         {
-          "text": "See you later"
+          "text": "Good. bye."
         },
         {
-          "text": "See you"
+          "text": "Going now"
         },
         {
-          "text": "Shut up"
+          "text": "Get lost"
         },
         {
-          "text": "Stop doing this"
-        },
-        {
-          "text": "Stop talking to me"
-        },
-        {
-          "text": "Thank you for your time"
-        },
-        {
-          "text": "Thanks, bye!"
-        },
-        {
-          "text": "Thanks very much, bye!"
-        },
-        {
-          "text": "That is all"
-        },
-        {
-          "text": "That's everything"
-        },
-        {
-          "text": "Time to go"
-        },
-        {
-          "text": "Go away"
-        },
-        {
-          "text": "bye"
-        },
-        {
-          "text": "Goodbye"
+          "text": "Finished now, good bye"
         },
         {
           "text": "Ending this session"
-        },
-        {
-          "text": "End trial"
         },
         {
           "text": "Cya later"
@@ -830,25 +701,229 @@
           "text": "Bye bye"
         },
         {
-          "text": "Finished now, good bye"
+          "text": "Go off"
         },
         {
-          "text": "Get lost"
+          "text": "Go away"
         },
         {
-          "text": "Going now"
+          "text": "Goodbye"
         },
         {
-          "text": "Good. bye."
+          "text": "End trial"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I want to quit"
         }
       ],
       "description": "End the conversation."
     },
     {
+      "intent": "ST_General",
+      "examples": [
+        {
+          "text": "i dunnow"
+        },
+        {
+          "text": "mhm, not sure yet"
+        },
+        {
+          "text": "not sure"
+        },
+        {
+          "text": "my resources are limited"
+        },
+        {
+          "text": "I am bored"
+        },
+        {
+          "text": "mhm"
+        },
+        {
+          "text": "good"
+        },
+        {
+          "text": "I don't know"
+        },
+        {
+          "text": "Let me think..."
+        },
+        {
+          "text": "i am lost"
+        }
+      ],
+      "description": "Added small talk option"
+    },
+    {
+      "intent": "ST_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "Information_mode",
+      "examples": [
+        {
+          "text": "Please help me with a product"
+        },
+        {
+          "text": "I need some support about your products, please"
+        },
+        {
+          "text": "Query about your products"
+        },
+        {
+          "text": "Try another product"
+        },
+        {
+          "text": "I want to ty another product"
+        },
+        {
+          "text": "Let's try with another product"
+        },
+        {
+          "text": "Go on with another product"
+        },
+        {
+          "text": "I have some doubts regarding a product"
+        },
+        {
+          "text": "Information about your offers"
+        },
+        {
+          "text": "Information please"
+        },
+        {
+          "text": "Info"
+        },
+        {
+          "text": "i want some information"
+        },
+        {
+          "text": "I have a question"
+        },
+        {
+          "text": "i need support with la la land"
+        },
+        {
+          "text": "information about alfredo di stefano"
+        }
+      ],
+      "description": "The user has questions"
+    },
+    {
       "intent": "ST_Jokes",
       "examples": [
         {
-          "text": "What is your favorite joke?"
+          "text": "I want a joke"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Another joke"
         },
         {
           "text": "What do you do for fun?"
@@ -869,139 +944,184 @@
           "text": "I'm bored"
         },
         {
-          "text": "I want a joke"
-        },
-        {
-          "text": "I am getting bored"
+          "text": "What is your favorite joke?"
         },
         {
           "text": "Do you like humor?"
-        },
-        {
-          "text": "Do you like fun?"
-        },
-        {
-          "text": "Do you have humor?"
-        },
-        {
-          "text": "Do you have a joke?"
-        },
-        {
-          "text": "Can you tell me a joke?"
-        },
-        {
-          "text": "Can you tell a joke?"
-        },
-        {
-          "text": "Are there jokes?"
-        },
-        {
-          "text": "Another joke"
         }
       ],
       "description": "Request a joke."
     },
     {
-      "intent": "Quote_mode",
+      "intent": "Product_type",
       "examples": [
         {
-          "text": "I want a nice sentence from a movie"
+          "text": "sorry, i am looking for an actor"
         },
         {
-          "text": "Another quote"
+          "text": "information about an actress"
         },
         {
-          "text": "Give me a movie sentence"
+          "text": "an actor"
         },
         {
-          "text": "Another quote, please"
+          "text": "look for an actor"
         },
         {
-          "text": "good, another one!"
+          "text": "information about a movie please"
         },
         {
-          "text": "Quote something"
+          "text": "actor/actress"
         },
         {
-          "text": "i need a quotte"
+          "text": "Director"
         },
         {
-          "text": "Give me a sentence from your films"
+          "text": "I want information about a director"
         },
         {
-          "text": "Please, one more!"
+          "text": "I am looking for information about a director"
+        },
+        {
+          "text": "I want data on a movie"
+        },
+        {
+          "text": "Film"
+        },
+        {
+          "text": "information about a movie"
+        },
+        {
+          "text": "information about a movie pleaase"
+        },
+        {
+          "text": "Fetch me some information about an actor"
+        },
+        {
+          "text": "Actor"
+        },
+        {
+          "text": "I want information about a film"
+        },
+        {
+          "text": "a mvie"
+        },
+        {
+          "text": "information about an actor"
+        },
+        {
+          "text": "I want information about an actor"
+        },
+        {
+          "text": "Movie"
+        },
+        {
+          "text": "Get me some data about a movie"
+        },
+        {
+          "text": "Actress"
+        },
+        {
+          "text": "i want information about a movie"
+        },
+        {
+          "text": "sorry i want information about an actor"
         }
       ],
-      "description": "The user wants a quote"
+      "description": "User chooses the type of product"
+    },
+    {
+      "intent": "ST_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Why are you stupid?"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "More_Info",
+      "examples": [
+        {
+          "text": "MoreInfo"
+        },
+        {
+          "text": "Yes, more information"
+        },
+        {
+          "text": "More information"
+        },
+        {
+          "text": "More information on the product please"
+        }
+      ],
+      "description": "The user wants more information about the product selected"
     },
     {
       "intent": "ST_Greetings",
       "examples": [
         {
-          "text": "Good day"
+          "text": "Hey there all"
         },
         {
-          "text": "Who is this?"
-        },
-        {
-          "text": "What's up?"
-        },
-        {
-          "text": "What's new?"
-        },
-        {
-          "text": "Ok take me back"
-        },
-        {
-          "text": "Hello"
-        },
-        {
-          "text": "Hello I am looking for some help here"
-        },
-        {
-          "text": "Hello Agent"
-        },
-        {
-          "text": "Have you been well?"
-        },
-        {
-          "text": "Greetings"
-        },
-        {
-          "text": "Good to see you"
-        },
-        {
-          "text": "Good morning"
-        },
-        {
-          "text": "Good evening"
-        },
-        {
-          "text": "You there"
-        },
-        {
-          "text": "Looking good eve"
-        },
-        {
-          "text": "How r u?"
-        },
-        {
-          "text": "How is it going?"
-        },
-        {
-          "text": "How have you been?"
-        },
-        {
-          "text": "How are you today?"
-        },
-        {
-          "text": "How are things going?"
-        },
-        {
-          "text": "Hi there"
-        },
-        {
-          "text": "Hi advisor"
+          "text": "Hey there"
         },
         {
           "text": "Hey you"
@@ -1010,52 +1130,101 @@
           "text": "Hey twin"
         },
         {
-          "text": "Hey there"
+          "text": "Hi advisor"
         },
         {
-          "text": "Hey there all"
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Hello"
         },
         {
           "text": "Hey how are you doing"
         }
       ],
       "description": "Greet the bot."
-    },
-    {
-      "intent": "Small_talk",
-      "examples": [
-        {
-          "text": "I don't know"
-        },
-        {
-          "text": "mhm"
-        },
-        {
-          "text": "good"
-        },
-        {
-          "text": "I am bored"
-        },
-        {
-          "text": "Let me think..."
-        },
-        {
-          "text": "i am lost"
-        },
-        {
-          "text": "i dunnow"
-        },
-        {
-          "text": "mhm, not sure yet"
-        },
-        {
-          "text": "not sure"
-        }
-      ],
-      "description": "Added small talk option"
     }
   ],
   "entities": [
+    {
+      "entity": "availability",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "availability",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "MisUnd",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "MisUnd",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
     {
       "entity": "Product_name",
       "values": [
@@ -1083,6 +1252,16 @@
       "values": [
         {
           "type": "synonyms",
+          "value": "film",
+          "synonyms": [
+            "films",
+            "movies",
+            "cinema",
+            "Movie"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "actor",
           "synonyms": [
             "actress",
@@ -1095,29 +1274,9 @@
             "main character",
             "girl",
             "guy",
-            "Actor"
+            "Actor",
+            "Director"
           ]
-        },
-        {
-          "type": "synonyms",
-          "value": "film",
-          "synonyms": [
-            "films",
-            "movies",
-            "cinema",
-            "Movie"
-          ]
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "availability",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "availability",
-          "synonyms": []
         }
       ],
       "fuzzy_match": true
@@ -1132,456 +1291,6 @@
   },
   "description": "",
   "dialog_nodes": [
-    {
-      "type": "standard",
-      "title": "movie_availability",
-      "output": {
-        "generic": [
-          {
-            "values": [],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_5_1557932252736",
-      "context": {
-        "availability": "$availability.availability"
-      },
-      "metadata": {},
-      "next_step": {
-        "behavior": "skip_user_input"
-      },
-      "conditions": "$prodname",
-      "dialog_node": "node_9_1557933316591",
-      "previous_sibling": "node_8_1557933224521"
-    },
-    {
-      "type": "standard",
-      "title": "movie_available?",
-      "output": {
-        "text": {
-          "values": []
-        }
-      },
-      "parent": "node_5_1557932252736",
-      "actions": [
-        {
-          "name": "arllambi@gmail.com_Only/default/Availability_Check.json",
-          "type": "web_action",
-          "parameters": {
-            "prodname": "<?input.text?>",
-            "prodtype": "$Product_type"
-          },
-          "result_variable": "context.availability"
-        }
-      ],
-      "context": {
-        "Product_type": "$Product_type"
-      },
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_9_1557933316591"
-      },
-      "conditions": "#Product_name",
-      "dialog_node": "node_8_1557933224521"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Sorry the film is not in our database."
-              },
-              {
-                "text": "I cannot find the film in the database."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "title": "",
-            "options": [
-              {
-                "label": "Ok, try another product",
-                "value": {
-                  "input": {
-                    "text": "Information"
-                  }
-                }
-              },
-              {
-                "label": "That is all, thanks",
-                "value": {
-                  "input": {
-                    "text": "Bye"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
-          }
-        ]
-      },
-      "parent": "node_9_1557933316591",
-      "context": {
-        "prodname": "",
-        "Product_type": ""
-      },
-      "metadata": {},
-      "conditions": "$availability=='No'",
-      "dialog_node": "node_2_1558110051885",
-      "previous_sibling": "node_1_1558110030960"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "text": {
-          "values": []
-        }
-      },
-      "parent": "node_9_1557933316591",
-      "actions": [
-        {
-          "name": "arllambi@gmail.com_Only/default/Prod_Film_Info.json",
-          "type": "web_action",
-          "parameters": {
-            "prodname": "<?input.text?>",
-            "prodtype": "$Product_type"
-          },
-          "result_variable": "context.movie_info"
-        }
-      ],
-      "context": {
-        "Product_type": "$Product_type"
-      },
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_3_1558110248812"
-      },
-      "conditions": "$availability=='Yes'",
-      "dialog_node": "node_1_1558110030960"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "source": "$movie_info.movie_info.Poster",
-            "response_type": "image"
-          },
-          {
-            "values": [
-              {
-                "text": "$movie_info.movie_info.Plot"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "values": [
-              {
-                "text": "You can find more info <a  target=\"_blank\" href=\"$movie_info.movie_info.Website\">here</a>."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "values": [
-              {
-                "text": "Anything else?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "title": "",
-            "options": [
-              {
-                "label": "Look for another product",
-                "value": {
-                  "input": {
-                    "text": "Information"
-                  }
-                }
-              },
-              {
-                "label": "Look for a recommendation",
-                "value": {
-                  "input": {
-                    "text": "Recommendation"
-                  }
-                }
-              },
-              {
-                "label": "That's all",
-                "value": {
-                  "input": {
-                    "text": "Bye"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
-          }
-        ]
-      },
-      "parent": "node_3_1558110248812",
-      "context": {
-        "Product_type": ""
-      },
-      "metadata": {},
-      "conditions": "#More_Info",
-      "dialog_node": "node_2_1558352026332"
-    },
-    {
-      "type": "standard",
-      "title": "prod_actor",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "I see that you want some information about an actor/actress. "
-              },
-              {
-                "text": "If I understood you properly, you are looking for some data on an actor/actress."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "values": [
-              {
-                "text": "Please provide me his or her name (please consider capital letters)."
-              },
-              {
-                "text": "Please give me the name of the $Product_type you are looking for (result could be case sensitive)."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1557931454418",
-      "metadata": {},
-      "conditions": "@Product_type:actor",
-      "dialog_node": "node_6_1557932587379",
-      "previous_sibling": "node_5_1557932252736"
-    },
-    {
-      "type": "standard",
-      "title": "prod_film",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "I understand that you want some information about a $Product_type. "
-              },
-              {
-                "text": "Ok, so you want some information about a $Product_type."
-              },
-              {
-                "text": "So you want some data about a $Product_type."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          },
-          {
-            "values": [
-              {
-                "text": "Please give me the name of the $Product_type you are looking for."
-              },
-              {
-                "text": "Can you give me its title please?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1557931454418",
-      "metadata": {},
-      "conditions": "@Product_type:film",
-      "dialog_node": "node_5_1557932252736"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "$movie_info.movie_info.Title is a $movie_info.movie_info.Genre movie starring $movie_info.movie_info.Actors, released in $movie_info.movie_info.Year. It was directed by $movie_info.movie_info.Director."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "title": "",
-            "options": [
-              {
-                "label": "More information on $movie_info.movie_info.Title",
-                "value": {
-                  "input": {
-                    "text": "MoreInfo"
-                  }
-                }
-              },
-              {
-                "label": "Look for other products",
-                "value": {
-                  "input": {
-                    "text": "Information"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
-          }
-        ]
-      },
-      "parent": "node_1_1558110030960",
-      "context": {
-        "Product_type": ""
-      },
-      "metadata": {},
-      "conditions": "$availability=='Yes' && $prodname",
-      "dialog_node": "node_3_1558110248812"
-    },
-    {
-      "type": "standard",
-      "title": "actor_info",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Ok, here some data on $prodname: <a  target=\"_blank\" href=\"https://en.wikipedia.org/wiki/$prodname\">More info</a>.<br/><br/>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "values": [
-              {
-                "text": "Anything else?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "title": "",
-            "options": [
-              {
-                "label": "Look for another product",
-                "value": {
-                  "input": {
-                    "text": "Information"
-                  }
-                }
-              },
-              {
-                "label": "Look for a recommendation",
-                "value": {
-                  "input": {
-                    "text": "Recommendation"
-                  }
-                }
-              },
-              {
-                "label": "That's all",
-                "value": {
-                  "input": {
-                    "text": "Bye"
-                  }
-                }
-              }
-            ],
-            "description": "",
-            "response_type": "option"
-          }
-        ]
-      },
-      "parent": "node_6_1557932587379",
-      "context": {
-        "Product_type": ""
-      },
-      "metadata": {},
-      "conditions": "$prodname",
-      "dialog_node": "node_1_1557934411555",
-      "previous_sibling": "node_7_1557932970681"
-    },
-    {
-      "type": "standard",
-      "title": "actor_name",
-      "output": {
-        "generic": []
-      },
-      "parent": "node_6_1557932587379",
-      "context": {
-        "prodname": "<?input.text?>"
-      },
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_1_1557934411555"
-      },
-      "conditions": "#Product_name",
-      "dialog_node": "node_7_1557932970681"
-    },
-    {
-      "type": "standard",
-      "title": "ST_Start",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "While you think, I can quote something."
-              },
-              {
-                "text": "Let me nudge you with some quotes from my favourite movies..."
-              },
-              {
-                "text": "Hope that helps:"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_3_1558338948541",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_2_1558338470523"
-      },
-      "conditions": "#Small_talk",
-      "dialog_node": "node_4_1556807058228",
-      "previous_sibling": "node_2_1558338470523"
-    },
     {
       "type": "standard",
       "title": "ST_Positive_Feedback",
@@ -1615,6 +1324,9 @@
               },
               {
                 "text": "Anything else that you need?"
+              },
+              {
+                "text": "Shall I help you with a recommendation or a product?"
               }
             ],
             "response_type": "text",
@@ -1645,7 +1357,7 @@
                 "text": "Some of my capabilities are still under work..."
               },
               {
-                "text": "Maybe could you try reformulating your wishes?"
+                "text": "Maybe you should reformulate your wishes."
               }
             ],
             "response_type": "text",
@@ -1676,6 +1388,66 @@
     },
     {
       "type": "standard",
+      "title": "ST_Capabilities",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Along with some small talk functions, I can help you to get some information about movies, actors, actresses and directors. As well, I can recommend you a film based on some of your tastes. I currently only speak English, incorporating other languages may be considered in the future. "
+              },
+              {
+                "text": "I can get you information about some actors, actresses and directors related to the movie world. If you'd rather have a recommendation, I could try to recommend you a film you could like. Small spoiler: my original version is English, maybe in the future you can see another versions of me."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1558338948541",
+      "metadata": {},
+      "conditions": "#ST_Agent_Capabilities",
+      "dialog_node": "node_2_1558340468395",
+      "previous_sibling": "node_4_1558339076554"
+    },
+    {
+      "type": "standard",
+      "title": "ST_About Moviebot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am MovieBot, created as part of the final thesis of the UOC Business Analytics Master Program. This current version of myself was initially created on April 2019 and is being under update since then. "
+              },
+              {
+                "text": "I am a chatbot and my name is MovieBot. I am the result of a final thesis within the UOC's Business Analytics Master Program. I was technically born in April 2019, but different versions of me are being updated now and then."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1558338948541",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1558340468395"
+      },
+      "conditions": "#ST_About_You",
+      "dialog_node": "node_4_1558339076554",
+      "previous_sibling": "node_4_1556807058228"
+    },
+    {
+      "type": "standard",
       "title": "ST_Joke",
       "output": {
         "generic": [
@@ -1692,7 +1464,7 @@
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "random"
           }
         ]
       },
@@ -1706,6 +1478,73 @@
       "conditions": "#ST_Jokes",
       "dialog_node": "node_4_1558341651458",
       "previous_sibling": "node_3_1558340865379"
+    },
+    {
+      "type": "standard",
+      "title": "ST_Start",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "While you think, I can quote something from a movie."
+              },
+              {
+                "text": "Let me nudge you with some quotes from my favourite movies..."
+              },
+              {
+                "text": "Hope that helps:"
+              },
+              {
+                "text": "Maybe a quote from a movie gives you inspiration."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1558338948541",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1558338470523"
+      },
+      "conditions": "#ST_General",
+      "dialog_node": "node_4_1556807058228",
+      "previous_sibling": "node_2_1558338470523"
+    },
+    {
+      "type": "standard",
+      "title": "ST_Human_or_Bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As far as I know I am a robot."
+              },
+              {
+                "text": "I am a robot, nice to meet you!"
+              },
+              {
+                "text": "I like movies, but my knowledge is merely artificial."
+              },
+              {
+                "text": "The question could be almost philosophical... Way above my capabilities."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1558338948541",
+      "metadata": {},
+      "conditions": "#ST_Human_or_Bot",
+      "dialog_node": "node_1_1558541570388",
+      "previous_sibling": "node_3_1558344425463"
     },
     {
       "type": "standard",
@@ -1725,7 +1564,7 @@
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "random"
           },
           {
             "title": "",
@@ -1739,7 +1578,7 @@
                 }
               },
               {
-                "label": "Recommendation",
+                "label": "A recommendation",
                 "value": {
                   "input": {
                     "text": "Recommendation"
@@ -1756,53 +1595,6 @@
       "conditions": "#ST_Greetings",
       "dialog_node": "node_3_1558340865379",
       "previous_sibling": "node_2_1558340468395"
-    },
-    {
-      "type": "standard",
-      "title": "ST_About Moviebot",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "I am MovieBot, created as part of the final thesis of the UOC Business Analytics Master Program. This current version of myself was initially created on April 2019 and is being under update since then. "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_3_1558338948541",
-      "metadata": {},
-      "conditions": "#ST_About_You",
-      "dialog_node": "node_4_1558339076554",
-      "previous_sibling": "node_4_1556807058228"
-    },
-    {
-      "type": "standard",
-      "title": "ST_Capabilities",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Along with some small talk functions, I can help you to get some information about movies and actors. As well, I can recommend you a film based on some of your tastes. I currently only speak English, incorporating other languages may be considered in the future. "
-              },
-              {
-                "text": "I can get you information about some products related to the movie world. If you'd rather have a recommendation, I could try to recommend you a film you could like. Small spoiler: my original version is English, maybe in the future you can see another versions of me."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_3_1558338948541",
-      "metadata": {},
-      "conditions": "#ST_Agent_Capabilities",
-      "dialog_node": "node_2_1558340468395",
-      "previous_sibling": "node_4_1558339076554"
     },
     {
       "type": "standard",
@@ -1870,40 +1662,11 @@
       },
       "parent": "node_3_1558338948541",
       "metadata": {},
-      "conditions": "#Quote_mode",
+      "conditions": "#ST_Quote",
       "dialog_node": "node_2_1558338470523"
     },
     {
       "type": "standard",
-      "title": "Anything else",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "I didn't understand... Are you looking for information or a recommendation of a product?"
-              },
-              {
-                "text": "Sorry, I am lost. You mean you need support with a product or need a recommendation?"
-              },
-              {
-                "text": "I did not get you. If you want I can help you with a product or a recommendation."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "anything_else",
-      "digress_in": "does_not_return",
-      "dialog_node": "Anything else",
-      "previous_sibling": "node_2_1556805867017"
-    },
-    {
-      "type": "standard",
-      "title": "Mode_information_product_type",
       "output": {
         "generic": [
           {
@@ -1913,6 +1676,306 @@
           }
         ]
       },
+      "parent": "node_6_1557932587379",
+      "context": {
+        "Product_type": ""
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1556807174590"
+      },
+      "conditions": "#Recommendation_mode",
+      "dialog_node": "node_2_1558900089493",
+      "previous_sibling": "node_1_1558877568854"
+    },
+    {
+      "type": "standard",
+      "title": "actor_name",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1557932587379",
+      "context": {
+        "prodname": "<?input.text?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557934411555"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_7_1557932970681",
+      "previous_sibling": "node_2_1558900089493"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1557932587379",
+      "context": {
+        "Product_type": ""
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557931454418"
+      },
+      "conditions": "#Product_type",
+      "dialog_node": "node_1_1558877568854"
+    },
+    {
+      "type": "standard",
+      "title": "movie_info",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "node_5_1557932252736",
+      "actions": [
+        {
+          "name": "arllambi@gmail.com_Only/default/Prod_Film_Info.json",
+          "type": "web_action",
+          "parameters": {
+            "prodname": "<?input.text?>"
+          },
+          "result_variable": "context.movie_info"
+        }
+      ],
+      "context": {
+        "Product_type": "$Product_type"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1557933316591"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_8_1557933224521",
+      "previous_sibling": "node_3_1558942936445"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1557932252736",
+      "context": {
+        "Product_type": ""
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1556807174590"
+      },
+      "conditions": "#Recommendation_mode",
+      "dialog_node": "node_3_1558942936445",
+      "previous_sibling": "node_2_1558942796928"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1557932252736",
+      "context": {
+        "Product_type": ""
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1557931454418"
+      },
+      "conditions": "#Product_type",
+      "dialog_node": "node_2_1558942796928"
+    },
+    {
+      "type": "standard",
+      "title": "prod_actor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I see that you want some information about an actor/actress or a director. "
+              },
+              {
+                "text": "If I understood you properly, you are looking for some data on an actor/actress or a director."
+              },
+              {
+                "text": "Ok, I can help you to get some data about an actor/actress or a director."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Please provide me his or her name (please consider capital letters)."
+              },
+              {
+                "text": "Please give me the name (result could be case sensitive)."
+              },
+              {
+                "text": "Can you please tell me his or her name? Be careful, result could be case sensitive"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1557931454418",
+      "context": {
+        "prodname": ""
+      },
+      "metadata": {},
+      "conditions": "@Product_type:actor",
+      "dialog_node": "node_6_1557932587379",
+      "previous_sibling": "node_5_1557932252736"
+    },
+    {
+      "type": "standard",
+      "title": "prod_film",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I understand that you want some information about a $Product_type. "
+              },
+              {
+                "text": "Ok, so you want some information about a $Product_type."
+              },
+              {
+                "text": "So you want some data about a $Product_type. No problem!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Please give me the title of the $Product_type you are looking for."
+              },
+              {
+                "text": "Can you give me its title please?"
+              },
+              {
+                "text": "What is the title of the movie?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1557931454418",
+      "context": {
+        "prodname": ""
+      },
+      "metadata": {},
+      "conditions": "@Product_type:film",
+      "dialog_node": "node_5_1557932252736"
+    },
+    {
+      "type": "standard",
+      "title": "Mode_information",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Of course. Please select the type of product please."
+              },
+              {
+                "text": "No problem. Just tell me what are you looking for."
+              },
+              {
+                "text": "Copy that. Tell me which kind of product are you looking for."
+              },
+              {
+                "text": "Sure! You want data on:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "A movie/film",
+                "value": {
+                  "input": {
+                    "text": "film"
+                  }
+                }
+              },
+              {
+                "label": "An actress/actor or director",
+                "value": {
+                  "input": {
+                    "text": "actor/actress"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1558431809016",
+      "context": {
+        "prodname": ""
+      },
+      "metadata": {},
+      "conditions": "#Information_mode",
+      "dialog_node": "node_5_1556807116851",
+      "previous_sibling": "node_1_1557931454418"
+    },
+    {
+      "type": "standard",
+      "title": "Mode_information_product_type",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1558431809016",
       "context": {
         "Product_type": "<? @Product_type?>"
       },
@@ -1921,9 +1984,447 @@
         "behavior": "skip_user_input"
       },
       "conditions": "$Product_type || #Product_type",
+      "dialog_node": "node_1_1557931454418"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here some info on $movie_info.movie_info.Title."
+              },
+              {
+                "text": "Genre: $movie_info.movie_info.Genre"
+              },
+              {
+                "text": "Starring: $movie_info.movie_info.Actors"
+              },
+              {
+                "text": "Director: $movie_info.movie_info.Director"
+              },
+              {
+                "text": "Year: $movie_info.movie_info.Year"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "More info about $movie_info.movie_info.Title",
+                "value": {
+                  "input": {
+                    "text": "MoreInfo"
+                  }
+                }
+              },
+              {
+                "label": "Let's look for another product",
+                "value": {
+                  "input": {
+                    "text": "Information"
+                  }
+                }
+              },
+              {
+                "label": "Recommend me something",
+                "value": {
+                  "input": {
+                    "text": "Recommendation"
+                  }
+                }
+              },
+              {
+                "label": "That's all, thanks",
+                "value": {
+                  "input": {
+                    "text": "Bye"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1557933316591",
+      "context": {
+        "Product_type": ""
+      },
+      "metadata": {},
+      "conditions": "$availability!=Null",
+      "dialog_node": "node_3_1558110248812",
+      "previous_sibling": "node_2_1558110051885"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry the film is not in our database."
+              },
+              {
+                "text": "I cannot find the film in the database. "
+              },
+              {
+                "text": "Unforunately, it seems that the title is not available..."
+              },
+              {
+                "text": "It looks like the title does not exist, sorry. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Please provide the title only, check spelling and use the original language."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Ok, try again",
+                "value": {
+                  "input": {
+                    "text": "Movie"
+                  }
+                }
+              },
+              {
+                "label": "That's all, thanks",
+                "value": {
+                  "input": {
+                    "text": "Bye"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1557933316591",
+      "context": {
+        "prodname": "",
+        "Product_type": ""
+      },
+      "metadata": {},
+      "conditions": "$availability==Null",
+      "dialog_node": "node_2_1558110051885"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "$movie_info.movie_info.Poster",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "$movie_info.movie_info.Plot. "
+              },
+              {
+                "text": "<a  target=\"_blank\" href=\"$movie_info.movie_info.Website\">Go to the website</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "time": 5000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Anything else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Look for another product",
+                "value": {
+                  "input": {
+                    "text": "Information"
+                  }
+                }
+              },
+              {
+                "label": "Look for a recommendation",
+                "value": {
+                  "input": {
+                    "text": "Recommendation"
+                  }
+                }
+              },
+              {
+                "label": "I have everything, thanks",
+                "value": {
+                  "input": {
+                    "text": "Bye"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1558110248812",
+      "context": {
+        "Product_type": ""
+      },
+      "metadata": {},
+      "conditions": "#More_Info",
+      "dialog_node": "node_2_1558352026332"
+    },
+    {
+      "type": "standard",
+      "title": "actor_info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, here some data on $prodname: <a  target=\"_blank\" href=\"https://en.wikipedia.org/wiki/$prodname\">More info</a>.<br/><br/>"
+              },
+              {
+                "text": "You can find some info about $prodname here: <a  target=\"_blank\" href=\"https://en.wikipedia.org/wiki/$prodname\">More info</a>.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Anything else?"
+              },
+              {
+                "text": "Do you want further support?"
+              },
+              {
+                "text": "How can I help you further?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Look for another product",
+                "value": {
+                  "input": {
+                    "text": "Information"
+                  }
+                }
+              },
+              {
+                "label": "Look for a recommendation",
+                "value": {
+                  "input": {
+                    "text": "Recommendation"
+                  }
+                }
+              },
+              {
+                "label": "That's all",
+                "value": {
+                  "input": {
+                    "text": "Bye"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1557932970681",
+      "context": {
+        "Product_type": ""
+      },
+      "metadata": {},
+      "conditions": "$prodname",
+      "dialog_node": "node_1_1557934411555"
+    },
+    {
+      "type": "standard",
+      "title": "movie_availability",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1557933224521",
+      "context": {
+        "availability": "$movie_info.movie_info.Title"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "$prodname",
+      "dialog_node": "node_9_1557933316591"
+    },
+    {
+      "type": "folder",
+      "title": "Mode_information",
+      "metadata": {},
       "digress_in": "does_not_return",
-      "dialog_node": "node_1_1557931454418",
+      "dialog_node": "node_4_1558431809016",
       "previous_sibling": "Welcome"
+    },
+    {
+      "type": "folder",
+      "title": "SmallTalk",
+      "metadata": {},
+      "dialog_node": "node_3_1558338948541",
+      "previous_sibling": "node_7_1556807174590"
+    },
+    {
+      "type": "standard",
+      "title": "Bye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hasta la vista, baby!"
+              },
+              {
+                "text": "Ok, I go, but I've seen things you people wouldn't believe..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "context": {
+        "Product_type": ""
+      },
+      "metadata": {},
+      "conditions": "#Ending",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1556805867017",
+      "previous_sibling": "node_3_1558338948541"
+    },
+    {
+      "type": "standard",
+      "title": "Transfer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, it looks like I cannot help you."
+              },
+              {
+                "text": "It seems I cannot support you properly. "
+              },
+              {
+                "text": "I think I am not communicating properly with you, sorry."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "I tried to send you to a human agent, but all our human agents are currently busy. Please try via email in the following link."
+              },
+              {
+                "text": "Unfortunately, I can't send you to a human agent right now. Please get in touch with us via email and we will try to get back to you as soon as possible."
+              },
+              {
+                "text": "No human agent is available at this moment. Please feel free to contact us via email. We will answer back as soon as we can."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "<a  target=\"_blank\" href=\"mailto:bfritz@fadingsignal.com\">Contact</a>.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Transfer || $MisUnd >= 3",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1558430437941",
+      "previous_sibling": "node_2_1556805867017"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand you... Are you looking for information or a recommendation of a product?"
+              },
+              {
+                "text": "Sorry, I am lost. You mean you need support with a product or need a recommendation?"
+              },
+              {
+                "text": "I did not get you. If you want I can help you with a product or a recommendation."
+              },
+              {
+                "text": "Sorry, I am not following you... May I assist you with a product or a recommendation?"
+              },
+              {
+                "text": "There are apparently some problems with me. Tell me if you need assistance with our products or a recommendation, and I am sure I will be able to help you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "context": {
+        "MisUnd": "<? $MisUnd+1 ?>"
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1558430437941"
     },
     {
       "type": "standard",
@@ -1945,90 +2446,7 @@
       "conditions": "#Recommendation_mode",
       "digress_in": "does_not_return",
       "dialog_node": "node_7_1556807174590",
-      "previous_sibling": "node_5_1556807116851"
-    },
-    {
-      "type": "standard",
-      "title": "Mode_information",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Of course. Please select the type of product please."
-              },
-              {
-                "text": "No problem. Just tell me what are you looking for."
-              },
-              {
-                "text": "Copy that. Tell me which kind of product are you looking for."
-              },
-              {
-                "text": "Sure. You want data on:"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          },
-          {
-            "title": "",
-            "options": [
-              {
-                "label": "A movie/film",
-                "value": {
-                  "input": {
-                    "text": "film"
-                  }
-                }
-              },
-              {
-                "label": "An actress/actor",
-                "value": {
-                  "input": {
-                    "text": "actor/actress"
-                  }
-                }
-              }
-            ],
-            "description": "",
-            "response_type": "option"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#Information_mode",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_5_1556807116851",
-      "previous_sibling": "node_1_1557931454418"
-    },
-    {
-      "type": "folder",
-      "title": "SmallTalk",
-      "metadata": {},
-      "dialog_node": "node_3_1558338948541",
-      "previous_sibling": "node_7_1556807174590"
-    },
-    {
-      "type": "standard",
-      "title": "Bye",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Hasta la vista, baby!"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#Ending",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_2_1556805867017",
-      "previous_sibling": "node_3_1558338948541"
+      "previous_sibling": "node_4_1558431809016"
     },
     {
       "type": "standard",
@@ -2083,7 +2501,7 @@
                 }
               },
               {
-                "label": "Recommendation",
+                "label": "A recommendation",
                 "value": {
                   "input": {
                     "text": "Recommendation"
@@ -2096,15 +2514,21 @@
           }
         ]
       },
+      "context": {
+        "MisUnd": 0
+      },
       "metadata": {},
       "conditions": "welcome",
       "dialog_node": "Welcome"
     }
   ],
-  "workspace_id": "65b350eb-2a99-4789-8cf6-46cf7c0d3a66",
+  "workspace_id": "abafc461-8aba-485f-a9dc-5a6f8b5d6462",
   "counterexamples": [
     {
       "text": "add"
+    },
+    {
+      "text": "i want a book"
     }
   ],
   "system_settings": {
