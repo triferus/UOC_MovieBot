@@ -5,7 +5,58 @@
       "intent": "Transfer",
       "examples": [
         {
-          "text": "Where is the closest agent?"
+          "text": "Need help from human"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "I want to check somewhere else"
+        },
+        {
+          "text": "I am not happy"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
         },
         {
           "text": "Customer service representative please."
@@ -59,79 +110,28 @@
           "text": "Yes, take me to a real person"
         },
         {
-          "text": "Could you please transfer me to your master?"
+          "text": "Where is the closest agent?"
         },
         {
           "text": "Send me to an agent"
         },
         {
-          "text": "A real agent, please."
-        },
-        {
-          "text": "Agent help"
-        },
-        {
-          "text": "Call agent"
-        },
-        {
-          "text": "Can I connect to an agent?"
-        },
-        {
-          "text": "Can I speak to a human please?"
-        },
-        {
-          "text": "Can I speak to a live person?"
-        },
-        {
-          "text": "Can I speak to an advisor?"
-        },
-        {
-          "text": "Can I speak with somebody?"
-        },
-        {
-          "text": "Can I talk to someone?"
-        },
-        {
-          "text": "Can you assist me to connect to an agent?"
-        },
-        {
-          "text": "Can you connect me with a real person?"
-        },
-        {
-          "text": "Connect me to a live operator please."
-        },
-        {
-          "text": "Contact person"
-        },
-        {
-          "text": "Is there anyone there I can actually talk to for real?"
-        },
-        {
-          "text": "Need help from human"
-        },
-        {
-          "text": "Operator please"
-        },
-        {
-          "text": "Please assist me to get to an agent"
-        },
-        {
-          "text": "Please connect me to a live agent"
-        },
-        {
-          "text": "Please let me talk to a human being."
+          "text": "Put me through to someone"
         },
         {
           "text": "Pls connect"
         },
         {
-          "text": "Put me through to someone"
+          "text": "Please let me talk to a human being."
         },
         {
-          "text": "I want to check somewhere else"
+          "text": "Please connect me to a live agent"
         },
         {
-          "text": "I am not happy"
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Operator please"
         }
       ],
       "description": "Request a human agent."
@@ -139,6 +139,18 @@
     {
       "intent": "ST_Quote",
       "examples": [
+        {
+          "text": "Give me a sentence from your films"
+        },
+        {
+          "text": "i need a quotte"
+        },
+        {
+          "text": "Give me a movie sentence"
+        },
+        {
+          "text": "Another quote"
+        },
         {
           "text": "Quote something"
         },
@@ -153,18 +165,6 @@
         },
         {
           "text": "Another quote, please"
-        },
-        {
-          "text": "Give me a sentence from your films"
-        },
-        {
-          "text": "i need a quotte"
-        },
-        {
-          "text": "Give me a movie sentence"
-        },
-        {
-          "text": "Another quote"
         }
       ],
       "description": "The user wants a quote"
@@ -173,34 +173,49 @@
       "intent": "ST_About_You",
       "examples": [
         {
-          "text": "Who are you?"
-        },
-        {
-          "text": "Where are you from?"
-        },
-        {
-          "text": "What's your name?"
-        },
-        {
-          "text": "Tell me something about yourself"
-        },
-        {
           "text": "Introduce your self"
-        },
-        {
-          "text": "Tell me about your life"
         },
         {
           "text": "I want to set up the chat bot for my shop"
         },
         {
-          "text": "How old are you?"
+          "text": "Let us talk about you"
         },
         {
-          "text": "About you"
+          "text": "Tell me about your life"
         },
         {
-          "text": "Can I use another language?"
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Do you know who you are?"
         },
         {
           "text": "Do you have a name?"
@@ -209,28 +224,13 @@
           "text": "Describe your self"
         },
         {
-          "text": "Do you know who you are?"
+          "text": "Can I use another language?"
         },
         {
-          "text": "How can I configure you?"
+          "text": "About you"
         },
         {
-          "text": "What should I know about you?"
-        },
-        {
-          "text": "How do you function?"
-        },
-        {
-          "text": "What languages do you speak?"
-        },
-        {
-          "text": "Let us talk about you"
-        },
-        {
-          "text": "Why are you here?"
-        },
-        {
-          "text": "Where were you born?"
+          "text": "How old are you?"
         }
       ],
       "description": "Request generic personal attributes."
@@ -239,34 +239,34 @@
       "intent": "ST_Positive_Feedback",
       "examples": [
         {
-          "text": "You are wonderful"
-        },
-        {
-          "text": "This is so cool"
-        },
-        {
-          "text": "Brilliant!"
-        },
-        {
-          "text": "Can't believe you are that good"
-        },
-        {
-          "text": "How cool is this?"
-        },
-        {
-          "text": "I like what you did there! :)"
-        },
-        {
-          "text": "I'm looking forward to working with you again! :)"
-        },
-        {
-          "text": "Love your work"
+          "text": "Thank you"
         },
         {
           "text": "Ok thank you"
         },
         {
-          "text": "Thank you"
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
         },
         {
           "text": "This is good"
@@ -275,13 +275,13 @@
           "text": "This is great"
         },
         {
-          "text": "You are awesome"
-        },
-        {
           "text": "You are great"
         },
         {
           "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
         },
         {
           "text": "good one"
@@ -305,100 +305,100 @@
       "intent": "ST_Agent_Capabilities",
       "examples": [
         {
-          "text": "What can I ask you to do?"
-        },
-        {
-          "text": "What do you do?"
-        },
-        {
-          "text": "What do you handle?"
-        },
-        {
-          "text": "What features are in here?"
-        },
-        {
-          "text": "What is this 4?"
-        },
-        {
-          "text": "What kinds of things can you do?"
-        },
-        {
-          "text": "Where can I find the frequently asked questions?"
-        },
-        {
-          "text": "do you speak englihs="
-        },
-        {
-          "text": "I'd like to know what type of questions you can answer for me."
-        },
-        {
-          "text": "How can you solve my problems?"
-        },
-        {
-          "text": "How can you help me?"
-        },
-        {
-          "text": "How can I use you?"
-        },
-        {
-          "text": "Hi, what do you do?"
-        },
-        {
-          "text": "Help now"
-        },
-        {
-          "text": "Do you have a list of things I can talk to you about?"
-        },
-        {
-          "text": "Can you tell me what services you are able to help me with?"
-        },
-        {
-          "text": "Can you please give me a list of the types of things you can help me with?"
-        },
-        {
-          "text": "I do not know what to ask"
-        },
-        {
-          "text": "What are you able to deal with?"
-        },
-        {
-          "text": "Do you speak english?"
-        },
-        {
-          "text": "Is there anything you can help me with?"
-        },
-        {
-          "text": "Tell me about what kind of things you do?"
-        },
-        {
-          "text": "Tell me something"
-        },
-        {
-          "text": "What are my options that you can help with?"
-        },
-        {
-          "text": "What are my options?"
-        },
-        {
           "text": "How do I use you?"
         },
         {
-          "text": "What are you able to understand?"
-        },
-        {
-          "text": "What are you capable of?"
-        },
-        {
-          "text": "What are you good at?"
-        },
-        {
-          "text": "What are you used for?"
+          "text": "What else can you help me with?"
         },
         {
           "text": "What are your skills?"
         },
         {
-          "text": "What else can you help me with?"
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Do you speak english?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "do you speak englihs="
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
         }
       ],
       "description": "Request capabilities of the bot."
@@ -407,7 +407,7 @@
       "intent": "Recommendation_mode",
       "examples": [
         {
-          "text": "Recommend me something"
+          "text": "give me a movie"
         },
         {
           "text": "I want a recommendation"
@@ -422,7 +422,7 @@
           "text": "I want advice"
         },
         {
-          "text": "give me a movie"
+          "text": "Recommend me something"
         }
       ],
       "description": "The user wants a recommendation"
@@ -430,93 +430,6 @@
     {
       "intent": "Ending",
       "examples": [
-        {
-          "text": "Im good thank you"
-        },
-        {
-          "text": "I'm done"
-        },
-        {
-          "text": "I have got to go"
-        },
-        {
-          "text": "I d like to stop doing this"
-        },
-        {
-          "text": "I am out of here"
-        },
-        {
-          "text": "I am leaving"
-        },
-        {
-          "text": "Hey bot go away"
-        },
-        {
-          "text": "Have a nice day?"
-        },
-        {
-          "text": "Good. bye."
-        },
-        {
-          "text": "Going now"
-        },
-        {
-          "text": "Get lost"
-        },
-        {
-          "text": "Finished now, good bye"
-        },
-        {
-          "text": "Ending this session"
-        },
-        {
-          "text": "Cya later"
-        },
-        {
-          "text": "Catch you later"
-        },
-        {
-          "text": "Bye now"
-        },
-        {
-          "text": "Bye bye"
-        },
-        {
-          "text": "Go off"
-        },
-        {
-          "text": "Go away"
-        },
-        {
-          "text": "Goodbye"
-        },
-        {
-          "text": "End trial"
-        },
-        {
-          "text": "bye"
-        },
-        {
-          "text": "Time to go"
-        },
-        {
-          "text": "That's everything"
-        },
-        {
-          "text": "That is all"
-        },
-        {
-          "text": "Thanks very much, bye!"
-        },
-        {
-          "text": "Thanks, bye!"
-        },
-        {
-          "text": "Thank you for your time"
-        },
-        {
-          "text": "Stop talking to me"
-        },
         {
           "text": "Stop doing this"
         },
@@ -539,10 +452,97 @@
           "text": "I'm leaving now"
         },
         {
+          "text": "Im good thank you"
+        },
+        {
           "text": "Im done"
         },
         {
           "text": "I want to quit"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Have a nice day?"
         }
       ],
       "description": "End the conversation."
@@ -587,15 +587,6 @@
       "intent": "ST_Human_or_Bot",
       "examples": [
         {
-          "text": "Are you a human or a bot?"
-        },
-        {
-          "text": "Are you real?"
-        },
-        {
-          "text": "How can you prove you are a human?"
-        },
-        {
           "text": "Are you a robot?"
         },
         {
@@ -621,6 +612,15 @@
         },
         {
           "text": "Are you even real?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Are you real?"
         }
       ],
       "description": "Ask if speaking to a human or a bot."
@@ -629,7 +629,25 @@
       "intent": "Information_mode",
       "examples": [
         {
+          "text": "Info"
+        },
+        {
+          "text": "information"
+        },
+        {
+          "text": "information about alfredo di stefano"
+        },
+        {
+          "text": "i need support with la la land"
+        },
+        {
+          "text": "I have a question"
+        },
+        {
           "text": "Please help me with a product"
+        },
+        {
+          "text": "i want some information"
         },
         {
           "text": "I need some support about your products, please"
@@ -657,21 +675,6 @@
         },
         {
           "text": "Information please"
-        },
-        {
-          "text": "Info"
-        },
-        {
-          "text": "i want some information"
-        },
-        {
-          "text": "I have a question"
-        },
-        {
-          "text": "i need support with la la land"
-        },
-        {
-          "text": "information about alfredo di stefano"
         }
       ],
       "description": "The user has questions"
@@ -686,42 +689,6 @@
           "text": "I am getting bored"
         },
         {
-          "text": "Do you have humor?"
-        },
-        {
-          "text": "Do you like fun?"
-        },
-        {
-          "text": "Do you have a joke?"
-        },
-        {
-          "text": "Can you tell me a joke?"
-        },
-        {
-          "text": "Can you tell a joke?"
-        },
-        {
-          "text": "Are there jokes?"
-        },
-        {
-          "text": "Another joke"
-        },
-        {
-          "text": "What do you do for fun?"
-        },
-        {
-          "text": "Tell me something funny"
-        },
-        {
-          "text": "Tell me a joke"
-        },
-        {
-          "text": "Surprise me with something hilarious"
-        },
-        {
-          "text": "One more joke"
-        },
-        {
           "text": "I'm bored"
         },
         {
@@ -729,6 +696,42 @@
         },
         {
           "text": "Do you like humor?"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "One more joke"
         }
       ],
       "description": "Request a joke."
@@ -812,37 +815,49 @@
       "description": "User chooses the type of product"
     },
     {
+      "intent": "Product_name",
+      "examples": [
+        {
+          "text": "Movie 43"
+        },
+        {
+          "text": "Scary Movie"
+        },
+        {
+          "text": "Disaster Movie"
+        },
+        {
+          "text": "Private Information"
+        },
+        {
+          "text": "The information"
+        },
+        {
+          "text": "The informer"
+        },
+        {
+          "text": "Simpsons: The Movie"
+        },
+        {
+          "text": "Psych: The Movie"
+        },
+        {
+          "text": "The Lego Movie"
+        }
+      ],
+      "description": "Used to capture product names that could be triggering other intents"
+    },
+    {
       "intent": "ST_Negative_Feedback",
       "examples": [
         {
-          "text": "You're really irritating"
+          "text": "Why are you so annoying?"
         },
         {
-          "text": "I hate this!"
+          "text": "Why are you stupid?"
         },
         {
-          "text": "I hate you"
-        },
-        {
-          "text": "You are on my nerves"
-        },
-        {
-          "text": "You do not seem smart"
-        },
-        {
-          "text": "I do not like you"
-        },
-        {
-          "text": "Hate you"
-        },
-        {
-          "text": "Everyone hates you"
-        },
-        {
-          "text": "Do not like you?"
-        },
-        {
-          "text": "Quit annoying me"
+          "text": "You are having delusions"
         },
         {
           "text": "It is annoying"
@@ -851,10 +866,40 @@
           "text": "You're too stupid"
         },
         {
+          "text": "I hate this!"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
           "text": "You are very frustrating"
         },
         {
           "text": "You're really frustrating"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "Quit annoying me"
         },
         {
           "text": "Robots are boring"
@@ -864,15 +909,6 @@
         },
         {
           "text": "Stupid"
-        },
-        {
-          "text": "Why are you so annoying?"
-        },
-        {
-          "text": "Why are you stupid?"
-        },
-        {
-          "text": "You are having delusions"
         }
       ],
       "description": "Express unfavorable feedback."
@@ -881,10 +917,10 @@
       "intent": "More_Info",
       "examples": [
         {
-          "text": "MoreInfo"
+          "text": "Yes, more information"
         },
         {
-          "text": "Yes, more information"
+          "text": "MoreInfo"
         },
         {
           "text": "More information"
@@ -899,49 +935,16 @@
       "intent": "ST_Greetings",
       "examples": [
         {
-          "text": "Hey there all"
-        },
-        {
-          "text": "Hey there"
-        },
-        {
-          "text": "Hey you"
-        },
-        {
-          "text": "Hey twin"
-        },
-        {
-          "text": "Hi advisor"
-        },
-        {
-          "text": "Hi there"
-        },
-        {
-          "text": "How are things going?"
-        },
-        {
-          "text": "How are you today?"
-        },
-        {
-          "text": "How have you been?"
-        },
-        {
-          "text": "How is it going?"
-        },
-        {
           "text": "How r u?"
         },
         {
-          "text": "Ok take me back"
-        },
-        {
-          "text": "What's new?"
+          "text": "Who is this?"
         },
         {
           "text": "What's up?"
         },
         {
-          "text": "Who is this?"
+          "text": "What's new?"
         },
         {
           "text": "You there"
@@ -978,6 +981,39 @@
         },
         {
           "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
         }
       ],
       "description": "Greet the bot."
