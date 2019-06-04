@@ -10,8 +10,7 @@ return new Promise(function(resolve, reject) {
         let completeResponse = '';
         responseFromAPI.on('data', (chunk) => {
                completeResponse += chunk;
-               let movie = JSON.parse(completeResponse);
-               let movie_info = `${movie.Title} is a ${movie.Genre} movie starring ${movie.Actors}, released in ${movie.Year}. It was directed by ${movie.Director}.`;
+               let movie_info = JSON.parse(completeResponse);
                console.log(movie_info);
                resolve({movie_info});
         })
