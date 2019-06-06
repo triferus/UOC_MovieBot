@@ -1,0 +1,194 @@
+function main(msg){
+    
+  const https = require('https');
+  const API_KEY = '71ce1d1aba104714900df8bcd1b0a610';
+  const genre1 = msg.genre1;
+  const genre2 = msg.genre2;
+  var reqUrl = encodeURI(`https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&page=1&with_original_language=en&with_genres=`);
+
+//We convert the two genres to the corresponding ids
+
+switch (genre1){
+    case "action":
+    genre1_id = 28;
+    break;
+
+    case "adventure":
+    genre1_id = 12;
+    break;
+
+    case "animation":
+    genre1_id = 16;
+    break;
+    
+    case "comedy":
+    genre1_id = 35;
+    break;
+
+    case "crime":
+    genre1_id = 80;
+    break;
+
+    case "documentary":
+    genre1_id = 99;
+    break;
+
+    case "drama":
+    genre1_id = 18;
+    break;
+
+    case "family":
+    genre1_id = 10751;
+    break;
+
+    case "fantasy":
+    genre1_id = 14;
+    break;
+
+    case "history":
+    genre1_id = 36;
+    break;
+
+    case "horror":
+    genre1_id = 27;
+    break;
+
+    case "music":
+    genre1_id = 10402;
+    break;
+
+    case "mystery":
+    genre1_id = 9648;
+    break;
+
+    case "romance":
+    genre1_id = 10749;
+    break;
+
+    case "science fiction":
+    genre1_id = 878;
+    break;
+
+    case "tv movie":
+    genre1_id = 10770;
+    break;
+
+    case "thriller":
+    genre1_id = 53;
+    break;
+
+    case "war":
+    genre1_id = 10752;
+    break;
+
+    case "western":
+    genre1_id = 37;
+    break;
+
+    default:
+    genre1_id = 'no_genre';
+    }
+    
+switch (genre2){
+    case "action":
+    genre2_id = 28;
+    break;
+
+    case "adventure":
+    genre2_id = 12;
+    break;
+
+    case "animation":
+    genre2_id = 16;
+    break;
+    
+    case "comedy":
+    genre2_id = 35;
+    break;
+
+    case "crime":
+    genre2_id = 80;
+    break;
+
+    case "documentary":
+    genre2_id = 99;
+    break;
+
+    case "drama":
+    genre2_id = 18;
+    break;
+
+    case "family":
+    genre2_id = 10751;
+    break;
+
+    case "fantasy":
+    genre2_id = 14;
+    break;
+
+    case "history":
+    genre2_id = 36;
+    break;
+
+    case "horror":
+    genre2_id = 27;
+    break;
+
+    case "music":
+    genre2_id = 10402;
+    break;
+
+    case "mystery":
+    genre2_id = 9648;
+    break;
+
+    case "romance":
+    genre2_id = 10749;
+    break;
+
+    case "science fiction":
+    genre2_id = 878;
+    break;
+
+    case "tv movie":
+    genre2_id = 10770;
+    break;
+
+    case "thriller":
+    genre2_id = 53;
+    break;
+
+    case "war":
+    genre2_id = 10752;
+    break;
+
+    case "western":
+    genre2_id = 37;
+    break;
+
+    default:
+    genre2_id = 'no_genre';
+    }
+
+var reqUrl = reqUrl+genre1_id+`,`+genre2_id;
+let i =Math.floor(Math.random() * 19); //we take a random result from the first 20 (0-19) most popular movies of the genre
+return new Promise(function(resolve, reject) {
+    https.get(reqUrl, (responseFromAPI) => {
+       const chunks = [];
+        responseFromAPI
+          .on('data', (chunk) => {
+                chunks.push(chunk);
+          })
+         .on('end', _=> {
+               let movie_info = JSON.parse(Buffer.concat(chunks));
+               movie_info = movie_info.results[i];
+               console.log(movie_info);
+               resolve({movie_info});
+        })
+        responseFromAPI.on('error', (error) => {
+            console.log(error);
+            reject(error);
+        });
+    });
+});
+}
