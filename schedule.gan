@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-03-24" view-index="0" gantt-divider-location="401" resource-divider-location="300" version="2.8.10" locale="en">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-03-24" view-index="0" gantt-divider-location="386" resource-divider-location="300" version="2.8.10" locale="en">
     <description/>
     <view zooming-state="default:7" id="gantt-chart">
-        <field id="tpd3" name="Name" width="268" order="0"/>
-        <field id="tpd4" name="Begin date" width="68" order="1"/>
-        <field id="tpd5" name="End date" width="60" order="2"/>
+        <field id="tpd3" name="Name" width="257" order="0"/>
+        <field id="tpd4" name="Begin date" width="66" order="1"/>
+        <field id="tpd5" name="End date" width="58" order="2"/>
         <timeline><![CDATA[0]]></timeline>
         <option id="color.recent"><![CDATA[#cc9900 #996600 #993300 #ff3333 #f0f0f0 #ff6600 #990033 #cc0066 #bfb9b9 #00cc66]]></option>
     </view>
@@ -66,9 +66,8 @@
         <task id="48" name="PEC03_1: 2nd draft report" color="#00cc66" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-06-05" duration="18" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true"/>
         <task id="53" name="PEC03_2: Training of recommendation chatbot" color="#00cc66" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-06-05" duration="18" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true"/>
         <task id="58" name="PEC03_3: Powerpoint presentation" color="#00cc66" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-06-21" duration="7" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true"/>
-        <task id="16" name="PEC04: Writing of report" color="#ff3333" meeting="false" start="2019-03-25" duration="92" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true"/>
-        <task id="15" name="PEC05: Evaluation committee" color="#993300" meeting="false" start="2019-07-03" duration="8" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true"/>
-        <task id="67" name="PEC05_1: Defense" color="#cc9900" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-07-03" duration="8" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true"/>
+        <task id="15" name="PEC04: Evaluation committee" color="#993300" meeting="false" start="2019-07-03" duration="8" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true"/>
+        <task id="67" name="PEC04_1: Evaluation of the thesis" color="#cc9900" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-07-03" duration="8" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
