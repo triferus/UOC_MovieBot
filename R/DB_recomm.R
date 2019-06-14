@@ -1,6 +1,9 @@
+#Data hast to be downloaded from https://movielens.org/ and saved in the same working folder
+#than the current R project. Needed archives are movies_metadata1, credits and keywords
+
 #load basic DB and eliminate unnecessary info
 
-getwd()
+setwd()
 db1<-read.csv("movies_metadata1.csv")
 db1<-db1[db1$original_language=="en",] #only films in ENGLISH (in line with the bot)
 db1$year <- substr(db1$release_date, 1, 4) #we are only interested in the release year
