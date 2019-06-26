@@ -12,7 +12,7 @@ The IBM_Watson folder contains the final IBM assistant bot support files:
 - .JSON archives correspond to the bot itself (intents, entities and dialog) and can be uploaded as a skill to any IBM assistant
 - .txt archives refer to the different web actions created (also available in the body document)
 
-Access data to both frameworks can be found in the body document.
+Access data to both frameworks can be found in the body document and is not given here for data protection.
 
 The R folder contains the code used to gather the needed data from MovieLens. Due to their size, support databases are NOT included and need to be downloaded from https://movielens.org. Needed archives are *movies_metadata1*, *credits* and *keywords*. Archives must be downloaded in the same folder than the R code.
 
