@@ -2177,11 +2177,17 @@
           {
             "values": [
               {
-                "text": "Please provide the title only, check spelling and use the original language."
+                "text": "Please provide the movie title only in its original language and check the spelling."
+              },
+              {
+                "text": "Try only giving me the movie title (better in English)."
+              },
+              {
+                "text": "Can you try again typing in only the movie title please? Check typos and consider that I only have access to English movies."
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "random"
           },
           {
             "title": "",
