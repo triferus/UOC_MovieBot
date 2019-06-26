@@ -5,133 +5,133 @@
       "intent": "Transfer",
       "examples": [
         {
-          "text": "I want to check somewhere else"
-        },
-        {
-          "text": "Send me somewhere else please"
-        },
-        {
-          "text": "I want to try a different source"
-        },
-        {
-          "text": "Please connect me to a live agent"
-        },
-        {
-          "text": "Contact person"
-        },
-        {
-          "text": "Connect me to a live operator please."
-        },
-        {
-          "text": "Can you connect me with a real person?"
-        },
-        {
-          "text": "Can you assist me to connect to an agent?"
-        },
-        {
-          "text": "Can I talk to someone?"
-        },
-        {
-          "text": "Can I speak with somebody?"
-        },
-        {
-          "text": "Please I need a new source of data"
-        },
-        {
-          "text": "Yes, take me to a real person"
-        },
-        {
-          "text": "Where is the closest agent?"
-        },
-        {
-          "text": "Send me to an agent"
-        },
-        {
-          "text": "Put me through to someone"
-        },
-        {
-          "text": "Pls connect"
-        },
-        {
-          "text": "Please let me talk to a human being."
-        },
-        {
-          "text": "Is there anyone there I can actually talk to for real?"
-        },
-        {
-          "text": "Please assist me to get to an agent"
-        },
-        {
-          "text": "Operator please"
-        },
-        {
           "text": "Need help from human"
-        },
-        {
-          "text": "Can I speak to an advisor?"
-        },
-        {
-          "text": "Can I speak to a live person?"
-        },
-        {
-          "text": "Can I speak to a human please?"
         },
         {
           "text": "Can I connect to an agent?"
         },
         {
-          "text": "Call agent"
+          "text": "Can I speak to a human please?"
         },
         {
-          "text": "Agent help"
+          "text": "Can I speak to a live person?"
         },
         {
-          "text": "A real agent, please."
+          "text": "Can I speak to an advisor?"
         },
         {
-          "text": "I am not happy"
+          "text": "Can I speak with somebody?"
         },
         {
-          "text": "Could you please transfer me to your master?"
+          "text": "Can I talk to someone?"
         },
         {
-          "text": "Customer service representative please."
+          "text": "Can you assist me to connect to an agent?"
         },
         {
-          "text": "Do not want a robot?"
+          "text": "Can you connect me with a real person?"
         },
         {
-          "text": "Hi can you transfer me"
+          "text": "Connect me to a live operator please."
         },
         {
-          "text": "How can I skip the recorded menu and go straight to a live person?"
+          "text": "Contact person"
         },
         {
-          "text": "I don't want to talk to a bot."
+          "text": "Please connect me to a live agent"
         },
         {
-          "text": "I don't want to talk to you"
+          "text": "Operator please"
         },
         {
-          "text": "I need to speak to a representative. How would I go about doing so?"
+          "text": "Please assist me to get to an agent"
         },
         {
-          "text": "I want a manager"
+          "text": "Is there anyone there I can actually talk to for real?"
         },
         {
-          "text": "I want agent"
+          "text": "Please let me talk to a human being."
         },
         {
-          "text": "I want an agent to help me"
+          "text": "Pls connect"
         },
         {
-          "text": "I want to talk to a person"
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Please I need a new source of data"
+        },
+        {
+          "text": "I want to try a different source"
+        },
+        {
+          "text": "Send me somewhere else please"
+        },
+        {
+          "text": "I would like to speak to someone"
         },
         {
           "text": "I would like to speak to a human"
         },
         {
-          "text": "I would like to speak to someone"
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "I am not happy"
+        },
+        {
+          "text": "I want to check somewhere else"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Call agent"
         }
       ],
       "description": "Request a human agent."
@@ -140,52 +140,52 @@
       "intent": "Information_mode",
       "examples": [
         {
-          "text": "I have some doubts regarding a product"
-        },
-        {
-          "text": "Go on with another product"
-        },
-        {
-          "text": "information about alfredo di stefano"
-        },
-        {
-          "text": "Try another product"
-        },
-        {
-          "text": "I want to ty another product"
+          "text": "Information about your offers"
         },
         {
           "text": "Let's try with another product"
         },
         {
-          "text": "I have a question"
+          "text": "Go on with another product"
         },
         {
-          "text": "Please help me with a product"
+          "text": "I have some doubts regarding a product"
         },
         {
-          "text": "Info"
+          "text": "Try another product"
+        },
+        {
+          "text": "information about alfredo di stefano"
         },
         {
           "text": "Information please"
         },
         {
-          "text": "I need some support about your products, please"
+          "text": "Info"
         },
         {
-          "text": "Query about your products"
+          "text": "Please help me with a product"
         },
         {
-          "text": "i want some information"
-        },
-        {
-          "text": "information"
+          "text": "I have a question"
         },
         {
           "text": "i need support with la la land"
         },
         {
-          "text": "Information about your offers"
+          "text": "information"
+        },
+        {
+          "text": "i want some information"
+        },
+        {
+          "text": "Query about your products"
+        },
+        {
+          "text": "I need some support about your products, please"
+        },
+        {
+          "text": "I want to ty another product"
         }
       ],
       "description": "The user has questions"
@@ -194,16 +194,16 @@
       "intent": "Recommendation_mode_other",
       "examples": [
         {
-          "text": "Recommendation_mode_other"
-        },
-        {
           "text": "I want another recommendation model"
         },
         {
-          "text": "RecommendationOther"
+          "text": "Recommendation_mode_other"
         },
         {
           "text": "I want a recommendation not based on genre"
+        },
+        {
+          "text": "RecommendationOther"
         }
       ],
       "description": "The user wants a recommendation model not based on genre"
@@ -211,9 +211,6 @@
     {
       "intent": "Recommendation_mode",
       "examples": [
-        {
-          "text": "I want a recommendation based on"
-        },
         {
           "text": "give me a movie"
         },
@@ -231,6 +228,9 @@
         },
         {
           "text": "I want advice"
+        },
+        {
+          "text": "I want a recommendation based on"
         }
       ],
       "description": "The user wants a recommendation"
@@ -239,13 +239,13 @@
       "intent": "More_Info",
       "examples": [
         {
-          "text": "More information"
+          "text": "Yes, more information"
         },
         {
           "text": "More information on the product please"
         },
         {
-          "text": "Yes, more information"
+          "text": "More information"
         },
         {
           "text": "MoreInfo"
@@ -257,22 +257,22 @@
       "intent": "Recommendation_mode_genre",
       "examples": [
         {
+          "text": "Recommend me somethin based in genre"
+        },
+        {
           "text": "genre"
         },
         {
-          "text": "Recommend me somethin based in genre"
+          "text": "Based on Genre"
+        },
+        {
+          "text": "RecommendationGenre"
         },
         {
           "text": "RecommendationModeGenre"
         },
         {
           "text": "I want a recommendation based on genre"
-        },
-        {
-          "text": "RecommendationGenre"
-        },
-        {
-          "text": "Based on Genre"
         }
       ],
       "description": "User wants a recommendation based by movie genre"
@@ -281,100 +281,100 @@
       "intent": "ST_Agent_Capabilities",
       "examples": [
         {
-          "text": "What features are in here?"
-        },
-        {
-          "text": "What kinds of things can you do?"
-        },
-        {
-          "text": "How can you solve my problems?"
-        },
-        {
-          "text": "How can you help me?"
-        },
-        {
-          "text": "How can I use you?"
-        },
-        {
-          "text": "What are you able to deal with?"
-        },
-        {
-          "text": "Do you speak english?"
-        },
-        {
-          "text": "Is there anything you can help me with?"
-        },
-        {
-          "text": "Tell me about what kind of things you do?"
-        },
-        {
-          "text": "Tell me something"
-        },
-        {
-          "text": "What are my options that you can help with?"
-        },
-        {
-          "text": "What are my options?"
-        },
-        {
           "text": "What are you able to understand?"
         },
         {
-          "text": "What are you capable of?"
+          "text": "What features are in here?"
         },
         {
-          "text": "What are you good at?"
-        },
-        {
-          "text": "What are you used for?"
-        },
-        {
-          "text": "What are your skills?"
-        },
-        {
-          "text": "What else can you help me with?"
-        },
-        {
-          "text": "How do I use you?"
-        },
-        {
-          "text": "Hi, what do you do?"
-        },
-        {
-          "text": "Help now"
-        },
-        {
-          "text": "Do you have a list of things I can talk to you about?"
-        },
-        {
-          "text": "What can I ask you to do?"
-        },
-        {
-          "text": "What is this 4?"
-        },
-        {
-          "text": "Where can I find the frequently asked questions?"
-        },
-        {
-          "text": "do you speak englihs="
-        },
-        {
-          "text": "I'd like to know what type of questions you can answer for me."
-        },
-        {
-          "text": "Can you tell me what services you are able to help me with?"
-        },
-        {
-          "text": "Can you please give me a list of the types of things you can help me with?"
-        },
-        {
-          "text": "I do not know what to ask"
+          "text": "What do you handle?"
         },
         {
           "text": "What do you do?"
         },
         {
-          "text": "What do you handle?"
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "do you speak englihs="
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Do you speak english?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "What kinds of things can you do?"
         }
       ],
       "description": "Request capabilities of the bot."
@@ -383,40 +383,25 @@
       "intent": "ST_Jokes",
       "examples": [
         {
-          "text": "Can you tell a joke?"
-        },
-        {
-          "text": "Another joke"
-        },
-        {
-          "text": "Surprise me with something hilarious"
-        },
-        {
-          "text": "Tell me a joke"
-        },
-        {
-          "text": "Tell me something funny"
-        },
-        {
-          "text": "Do you have humor?"
-        },
-        {
           "text": "What do you do for fun?"
         },
         {
-          "text": "I want a joke"
-        },
-        {
-          "text": "One more joke"
-        },
-        {
-          "text": "I'm bored"
+          "text": "Do you like humor?"
         },
         {
           "text": "What is your favorite joke?"
         },
         {
-          "text": "Do you like humor?"
+          "text": "I'm bored"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "Do you have humor?"
         },
         {
           "text": "I am getting bored"
@@ -431,7 +416,22 @@
           "text": "Can you tell me a joke?"
         },
         {
+          "text": "Can you tell a joke?"
+        },
+        {
           "text": "Are there jokes?"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
         }
       ],
       "description": "Request a joke."
@@ -440,34 +440,34 @@
       "intent": "ST_Quote",
       "examples": [
         {
-          "text": "Another quote, please"
-        },
-        {
-          "text": "good, another one!"
-        },
-        {
-          "text": "Please, one more!"
-        },
-        {
-          "text": "I want a nice sentence from a movie"
-        },
-        {
           "text": "Quote something"
-        },
-        {
-          "text": "Another quote"
-        },
-        {
-          "text": "Give me a movie sentence"
         },
         {
           "text": "i need a quotte"
         },
         {
-          "text": "Give me a sentence from your films"
+          "text": "Give me a movie sentence"
+        },
+        {
+          "text": "Another quote"
+        },
+        {
+          "text": "I want a nice sentence from a movie"
+        },
+        {
+          "text": "Please, one more!"
+        },
+        {
+          "text": "good, another one!"
+        },
+        {
+          "text": "Another quote, please"
         },
         {
           "text": "query something to me"
+        },
+        {
+          "text": "Give me a sentence from your films"
         }
       ],
       "description": "The user wants a quote"
@@ -476,31 +476,31 @@
       "intent": "Product_name",
       "examples": [
         {
-          "text": "Simpsons: The Movie"
-        },
-        {
-          "text": "Movie 43"
-        },
-        {
-          "text": "Scary Movie"
-        },
-        {
-          "text": "Disaster Movie"
+          "text": "The Lego Movie"
         },
         {
           "text": "Private Information"
         },
         {
-          "text": "The Lego Movie"
+          "text": "Disaster Movie"
         },
         {
-          "text": "The information"
+          "text": "Scary Movie"
+        },
+        {
+          "text": "Movie 43"
+        },
+        {
+          "text": "Psych: The Movie"
+        },
+        {
+          "text": "Simpsons: The Movie"
         },
         {
           "text": "The informer"
         },
         {
-          "text": "Psych: The Movie"
+          "text": "The information"
         }
       ],
       "description": "Used to capture product names that could be triggering other intents"
@@ -508,18 +508,6 @@
     {
       "intent": "ST_About_You",
       "examples": [
-        {
-          "text": "I want to set up the chat bot for my shop"
-        },
-        {
-          "text": "Tell me about your life"
-        },
-        {
-          "text": "Tell me something about yourself"
-        },
-        {
-          "text": "Who are you?"
-        },
         {
           "text": "Why are you here?"
         },
@@ -536,6 +524,9 @@
           "text": "What should I know about you?"
         },
         {
+          "text": "Can I use another language?"
+        },
+        {
           "text": "How can I configure you?"
         },
         {
@@ -548,25 +539,34 @@
           "text": "Describe your self"
         },
         {
-          "text": "Can I use another language?"
+          "text": "I want to set up the chat bot for my shop"
         },
         {
-          "text": "About you"
+          "text": "Tell me about your life"
         },
         {
-          "text": "How old are you?"
-        },
-        {
-          "text": "What's your name?"
-        },
-        {
-          "text": "Where are you from?"
+          "text": "Let us talk about you"
         },
         {
           "text": "Where were you born?"
         },
         {
-          "text": "Let us talk about you"
+          "text": "Where are you from?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "Who are you?"
         }
       ],
       "description": "Request generic personal attributes."
@@ -575,7 +575,37 @@
       "intent": "Ending",
       "examples": [
         {
+          "text": "See you later"
+        },
+        {
           "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Cya later"
         },
         {
           "text": "Go away"
@@ -620,73 +650,43 @@
           "text": "Catch you later"
         },
         {
-          "text": "I am out of here"
-        },
-        {
-          "text": "Im good thank you"
-        },
-        {
-          "text": "Im done"
+          "text": "Goodbye"
         },
         {
           "text": "I want to quit"
         },
         {
-          "text": "Goodbye"
+          "text": "Im done"
         },
         {
-          "text": "Hey bot go away"
+          "text": "Im good thank you"
         },
         {
-          "text": "Ending this session"
-        },
-        {
-          "text": "Cya later"
-        },
-        {
-          "text": "Have a nice day?"
-        },
-        {
-          "text": "Good. bye."
-        },
-        {
-          "text": "Going now"
-        },
-        {
-          "text": "Get lost"
-        },
-        {
-          "text": "Finished now, good bye"
-        },
-        {
-          "text": "Thanks, bye!"
-        },
-        {
-          "text": "Thank you for your time"
-        },
-        {
-          "text": "Stop talking to me"
-        },
-        {
-          "text": "Stop doing this"
-        },
-        {
-          "text": "Shut up"
-        },
-        {
-          "text": "See you"
-        },
-        {
-          "text": "See you later"
-        },
-        {
-          "text": "Ok goodbye"
+          "text": "I am out of here"
         },
         {
           "text": "It was nice chatting with you"
         },
         {
-          "text": "I am leaving"
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
         }
       ],
       "description": "End the conversation."
@@ -695,43 +695,13 @@
       "intent": "ST_Greetings",
       "examples": [
         {
-          "text": "How are you today?"
-        },
-        {
-          "text": "Hello Agent"
-        },
-        {
-          "text": "Hello I am looking for some help here"
-        },
-        {
-          "text": "Have you been well?"
-        },
-        {
-          "text": "Greetings"
-        },
-        {
-          "text": "Good to see you"
-        },
-        {
-          "text": "Good morning"
-        },
-        {
           "text": "Good evening"
         },
         {
-          "text": "Good day"
-        },
-        {
-          "text": "Hey there"
-        },
-        {
-          "text": "How r u?"
-        },
-        {
-          "text": "How is it going?"
-        },
-        {
           "text": "How have you been?"
+        },
+        {
+          "text": "How are you today?"
         },
         {
           "text": "How are things going?"
@@ -746,34 +716,64 @@
           "text": "Hey you"
         },
         {
-          "text": "Hey twin"
+          "text": "How r u?"
         },
         {
-          "text": "You there"
+          "text": "Hey there"
         },
         {
-          "text": "Ok take me back"
+          "text": "Good day"
         },
         {
-          "text": "What's new?"
+          "text": "Good to see you"
         },
         {
-          "text": "What's up?"
+          "text": "Greetings"
         },
         {
-          "text": "Who is this?"
+          "text": "Have you been well?"
         },
         {
-          "text": "Hey there all"
+          "text": "Hello I am looking for some help here"
         },
         {
-          "text": "Hey how are you doing"
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Looking good eve"
         },
         {
           "text": "Hello"
         },
         {
-          "text": "Looking good eve"
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Good morning"
         }
       ],
       "description": "Greet the bot."
@@ -782,40 +782,40 @@
       "intent": "ST_Human_or_Bot",
       "examples": [
         {
-          "text": "Am I talking to a person or am I talking to an AI?"
-        },
-        {
-          "text": "Tell me, are you a human or no?"
-        },
-        {
-          "text": "Am I chatting with a human?"
-        },
-        {
-          "text": "Am I talking to Watson?"
-        },
-        {
-          "text": "How can you prove you are a human?"
+          "text": "Is this a computer?"
         },
         {
           "text": "Are you real?"
         },
         {
-          "text": "Are you a robot?"
-        },
-        {
-          "text": "Am I talking to a Bot?"
-        },
-        {
-          "text": "Is this a computer?"
+          "text": "How can you prove you are a human?"
         },
         {
           "text": "Are you human?"
         },
         {
-          "text": "Are you even real?"
+          "text": "Am I talking to a Bot?"
         },
         {
           "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
         }
       ],
       "description": "Ask if speaking to a human or a bot."
@@ -824,16 +824,16 @@
       "intent": "AnotherMovieGenre",
       "examples": [
         {
-          "text": "Another movie"
-        },
-        {
-          "text": "Another movie for the same"
+          "text": "AnotherMovieGenre"
         },
         {
           "text": "Another movie based on the same genres please!"
         },
         {
-          "text": "AnotherMovieGenre"
+          "text": "Another movie for the same"
+        },
+        {
+          "text": "Another movie"
         }
       ],
       "description": "The user wants another movie based on the same chosen genres"
@@ -842,34 +842,37 @@
       "intent": "ST_General",
       "examples": [
         {
-          "text": "I am bored"
-        },
-        {
-          "text": "i dunnow"
-        },
-        {
-          "text": "i am lost"
-        },
-        {
-          "text": "Let me think..."
-        },
-        {
-          "text": "I don't know"
-        },
-        {
           "text": "good"
         },
         {
-          "text": "mhm"
-        },
-        {
-          "text": "my resources are limited"
+          "text": "mhm, not sure yet"
         },
         {
           "text": "not sure"
         },
         {
-          "text": "mhm, not sure yet"
+          "text": "my resources are limited"
+        },
+        {
+          "text": "I am bored"
+        },
+        {
+          "text": "mhm"
+        },
+        {
+          "text": "I don't know"
+        },
+        {
+          "text": "Let me think..."
+        },
+        {
+          "text": "i am lost"
+        },
+        {
+          "text": "i dunnow"
+        },
+        {
+          "text": "i don't know what to do..."
         }
       ],
       "description": "Added small talk option"
@@ -878,10 +881,7 @@
       "intent": "Product_type",
       "examples": [
         {
-          "text": "i want information about a movie"
-        },
-        {
-          "text": "Get me some data about a movie"
+          "text": "i want infor about amovie"
         },
         {
           "text": "Actress"
@@ -890,25 +890,13 @@
           "text": "Movie"
         },
         {
-          "text": "I want information about a film"
+          "text": "sorry i want information about an actor"
         },
         {
-          "text": "Actor"
+          "text": "i want information about a movie"
         },
         {
-          "text": "Fetch me some information about an actor"
-        },
-        {
-          "text": "information about a movie pleaase"
-        },
-        {
-          "text": "information about a movie"
-        },
-        {
-          "text": "Film"
-        },
-        {
-          "text": "I want data on a movie"
+          "text": "Get me some data about a movie"
         },
         {
           "text": "I am looking for information about a director"
@@ -929,25 +917,43 @@
           "text": "look for an actor"
         },
         {
-          "text": "I want information about an actor"
-        },
-        {
-          "text": "information about an actor"
-        },
-        {
-          "text": "a mvie"
-        },
-        {
           "text": "an actor"
-        },
-        {
-          "text": "information about an actress"
         },
         {
           "text": "sorry, i am looking for an actor"
         },
         {
-          "text": "sorry i want information about an actor"
+          "text": "I want data on a movie"
+        },
+        {
+          "text": "Film"
+        },
+        {
+          "text": "information about a movie"
+        },
+        {
+          "text": "information about a movie pleaase"
+        },
+        {
+          "text": "Fetch me some information about an actor"
+        },
+        {
+          "text": "information about an actress"
+        },
+        {
+          "text": "Actor"
+        },
+        {
+          "text": "I want information about a film"
+        },
+        {
+          "text": "a mvie"
+        },
+        {
+          "text": "information about an actor"
+        },
+        {
+          "text": "I want information about an actor"
         }
       ],
       "description": "User chooses the type of product"
@@ -956,16 +962,43 @@
       "intent": "ST_Positive_Feedback",
       "examples": [
         {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
           "text": "Ok thank you"
         },
         {
-          "text": "I like what you did there! :)"
+          "text": "Thank you"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
         },
         {
           "text": "This is great"
         },
         {
-          "text": "You are awesome"
+          "text": "I like what you did there! :)"
         },
         {
           "text": "You are great"
@@ -987,33 +1020,6 @@
         },
         {
           "text": "You the man"
-        },
-        {
-          "text": "You gave me exactly what I need!"
-        },
-        {
-          "text": "This is good"
-        },
-        {
-          "text": "How cool is this?"
-        },
-        {
-          "text": "I'm looking forward to working with you again! :)"
-        },
-        {
-          "text": "Love your work"
-        },
-        {
-          "text": "Thank you"
-        },
-        {
-          "text": "Can't believe you are that good"
-        },
-        {
-          "text": "Brilliant!"
-        },
-        {
-          "text": "This is so cool"
         }
       ],
       "description": "Express positive sentiment or gratitude."
@@ -1023,6 +1029,15 @@
       "examples": [
         {
           "text": "I hate this!"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "Hate you"
         },
         {
           "text": "I do not like you"
@@ -1052,9 +1067,6 @@
           "text": "You are very frustrating"
         },
         {
-          "text": "Hate you"
-        },
-        {
           "text": "Everyone hates you"
         },
         {
@@ -1070,16 +1082,10 @@
           "text": "You are having delusions"
         },
         {
-          "text": "You do not seem smart"
-        },
-        {
           "text": "It is annoying"
         },
         {
           "text": "You're too stupid"
-        },
-        {
-          "text": "You are on my nerves"
         }
       ],
       "description": "Express unfavorable feedback."
@@ -1399,11 +1405,11 @@
                 "text": "I like movies, but my knowledge is merely artificial."
               },
               {
-                "text": "The question could be almost philosophical... Way above my capabilities."
+                "text": "The question could be almost philosophical... Way above my capabilities..."
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "random"
           }
         ]
       },
@@ -1428,6 +1434,9 @@
               },
               {
                 "text": "I am not into jokes... hope this quote from a film is ok instead."
+              },
+              {
+                "text": "A joke? No, sorry... But I can quote you something like..."
               }
             ],
             "response_type": "text",
@@ -1464,10 +1473,13 @@
               },
               {
                 "text": "Maybe a quote from a movie gives you inspiration."
+              },
+              {
+                "text": "As you seem to be lost, I can tell you that:"
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "random"
           }
         ]
       },
@@ -1493,13 +1505,13 @@
                 "text": "Sorry to read that... I am sure I can change your mind. "
               },
               {
-                "text": "Why do you say that? Maybe I did not understand you well."
+                "text": "Why do you say that? Maybe I did not understand you well..."
               },
               {
-                "text": "Some of my capabilities are still under work..."
+                "text": "Some of my capabilities are still under work... sorry"
               },
               {
-                "text": "Maybe you should reformulate your wishes."
+                "text": "Ooops... Maybe you should reformulate your wishes so I can understand you easily?"
               }
             ],
             "response_type": "text",
@@ -1515,6 +1527,9 @@
               },
               {
                 "text": "We should start from the beginning. Do you want a recommendation or some data?"
+              },
+              {
+                "text": "New start, new luck. You'd rather have some information about our products or a recommendation?"
               }
             ],
             "response_type": "text",
@@ -1536,10 +1551,28 @@
           {
             "values": [
               {
-                "text": "I am MovieBot, created as part of the final thesis of the UOC Business Analytics Master Program. This current version of myself was initially created on April 2019 and is being under update since then. "
+                "text": "I am MovieBot, created as part of the final thesis of the UOC Business Analytics Master Program. "
               },
               {
-                "text": "I am a chatbot and my name is MovieBot. I am the result of a final thesis within the UOC's Business Analytics Master Program. I was technically born in April 2019, but different versions of me are being updated now and then."
+                "text": "I am a chatbot and my name is MovieBot. I am the result of a final thesis within the UOC's Business Analytics Master Program."
+              },
+              {
+                "text": "I am MovieBot, deployed within the final thesis of UOC's Master Program in Business Analytics."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "This current version of myself was initially created on April 2019 and has been under update since then. "
+              },
+              {
+                "text": "I was technically born in April 2019, but different versions of me are being updated now and then."
+              },
+              {
+                "text": "My \"official\" date of birth is April 2019, but you are for sure talking to an evolution of that."
               }
             ],
             "response_type": "text",
@@ -1566,17 +1599,30 @@
           {
             "values": [
               {
-                "text": "Along with some small talk functions, I can help you to get some information about movies, actors, actresses and directors. As well, I can recommend you a film based on some of your tastes. I currently only speak English, incorporating other languages may be considered in the future. "
+                "text": "I can help you to get some information about movies, actors, actresses and directors. As well, I can recommend you a film based on some of your tastes."
               },
               {
-                "text": "I can get you information about some actors, actresses and directors related to the movie world. If you'd rather have a recommendation, I could try to recommend you a film you could like. Small spoiler: my original version is English, maybe in the future you can see another versions of me."
+                "text": "I can get you information about some actors, actresses and directors related to the movie world if you want. If you'd rather have a recommendation, I could try to recommend you a film you could like. "
+              },
+              {
+                "text": "I basically will try to help you to get some information about movies or actors, actresses and directors. I could recommend you a film as well, based on your favourite genres."
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "random"
           },
           {
-            "values": [],
+            "values": [
+              {
+                "text": "Small spoiler: my original version is English, maybe in the future you can see another versions of me."
+              },
+              {
+                "text": " I currently only speak English, incorporating other languages may be considered in the future. "
+              },
+              {
+                "text": "Right now I can only understand English. Maybe in the future I can surprise you with new features."
+              }
+            ],
             "response_type": "text",
             "selection_policy": "sequential"
           }
@@ -1645,13 +1691,16 @@
           {
             "values": [
               {
-                "text": "Hi! Nice to hear from you. How can I help you?"
+                "text": "Hi! Nice to hear from you. I am MovieBot. How can I help you?"
               },
               {
                 "text": "Hello, I hope you are fine. Tell me what do you need from me."
               },
               {
-                "text": "Good to have somebody to talk. What do you want from me?"
+                "text": "MovieBot here. Good to have somebody to talk. Can I support you with the following?"
+              },
+              {
+                "text": "Hola :) I am MovieBot, what can I do for you?"
               }
             ],
             "response_type": "text",
@@ -1682,6 +1731,9 @@
         ]
       },
       "parent": "node_3_1558338948541",
+      "context": {
+        "MisUnd": 0
+      },
       "metadata": {},
       "conditions": "#ST_Greetings",
       "dialog_node": "node_3_1558340865379",
@@ -1803,7 +1855,7 @@
                 }
               },
               {
-                "label": "I would like another recommendation",
+                "label": "A new recommendation",
                 "value": {
                   "input": {
                     "text": "Recommendation"
@@ -1952,19 +2004,43 @@
     },
     {
       "type": "standard",
-      "title": "Mode_information",
+      "title": "Mode_information_product_type",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1558431809016",
+      "context": {
+        "Product_type": "<? @Product_type?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "$Product_type || #Product_type",
+      "dialog_node": "node_1_1557931454418",
+      "previous_sibling": "node_5_1556807116851"
+    },
+    {
+      "type": "standard",
+      "title": "Mode_query",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Of course. Please select the type of product please."
+                "text": "Of course. Please select the type of product please:"
               },
               {
-                "text": "No problem. Just tell me what are you looking for."
+                "text": "No problem. Just tell me what are you looking for:"
               },
               {
-                "text": "Copy that. Tell me which kind of product are you looking for."
+                "text": "Copy that. Tell me which kind of product do you want?"
               },
               {
                 "text": "Sure! You want data on:"
@@ -2004,31 +2080,7 @@
       },
       "metadata": {},
       "conditions": "#Information_mode",
-      "dialog_node": "node_5_1556807116851",
-      "previous_sibling": "node_1_1557931454418"
-    },
-    {
-      "type": "standard",
-      "title": "Mode_information_product_type",
-      "output": {
-        "generic": [
-          {
-            "values": [],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
-      },
-      "parent": "node_4_1558431809016",
-      "context": {
-        "Product_type": "<? @Product_type?>"
-      },
-      "metadata": {},
-      "next_step": {
-        "behavior": "skip_user_input"
-      },
-      "conditions": "$Product_type || #Product_type",
-      "dialog_node": "node_1_1557931454418"
+      "dialog_node": "node_5_1556807116851"
     },
     {
       "type": "standard",
@@ -2456,10 +2508,13 @@
               },
               {
                 "text": "Mhm, I cannot find the genre you gave in. Please try with another one."
+              },
+              {
+                "text": "I think I don't have the genre you are looking for... Could you try with another one?"
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "random"
           }
         ]
       },
@@ -2494,7 +2549,7 @@
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "random"
           },
           {
             "values": [
@@ -2558,6 +2613,9 @@
               },
               {
                 "text": "Please choose one genre: documentary, tv movie, western, comedy..."
+              },
+              {
+                "text": "What genre do you love? Tv movie, family, horror...?"
               }
             ],
             "response_type": "text",
@@ -2607,10 +2665,13 @@
               },
               {
                 "text": "I am afraid that is still outside my competences. You can read the master thesis for mor info about that."
+              },
+              {
+                "text": "Sorry, but that function will be available in future updates."
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "random"
           },
           {
             "title": "",
@@ -2810,7 +2871,10 @@
                 "text": "I see you love $genre1 movies. But I need two different genres to be more accurate... What else do you like?"
               },
               {
-                "text": "$genre1 movies are great, indeed! Please consider that I need two different genres in order to give you a good recommendation."
+                "text": "Yes, $genre1 movies are great, indeed! Please consider that I need two different genres in order to give you a good recommendation."
+              },
+              {
+                "text": "I need a second genre, different than $genre1, to be able to recommend you something..."
               }
             ],
             "response_type": "text",
@@ -2831,6 +2895,70 @@
       },
       "conditions": "$genre2 == $genre1",
       "dialog_node": "node_1_1559812637717"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1559736815535",
+      "context": {
+        "MisUnd": 3,
+        "MisUndG": 0
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1558430437941"
+      },
+      "conditions": "$MisUndG >=2",
+      "dialog_node": "node_1_1561566267083",
+      "previous_sibling": "node_1_1559741657321"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I did not understand you... can you please type the genre again?"
+              },
+              {
+                "text": "It seems like the genre is not available. Can you check any typos and try again?"
+              },
+              {
+                "text": "Mhm, I cannot find the genre you gave in. Please try with another one."
+              },
+              {
+                "text": "I think I don't have the genre you are looking for... Could you try with another one?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_20_1559736815535",
+      "context": {
+        "MisUndG": "<? $MisUndG+1 ?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1559741657321"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1559661061168",
+      "previous_sibling": "node_1_1559726223361"
     },
     {
       "type": "standard",
@@ -2864,7 +2992,7 @@
       },
       "parent": "node_20_1559736815535",
       "context": {
-        "MisUndG": 1
+        "MisUndG": "<? $MisUndG+1 ?>"
       },
       "metadata": {},
       "next_step": {
@@ -2874,42 +3002,7 @@
       },
       "conditions": "$MisUndG >=1",
       "dialog_node": "node_1_1559726223361",
-      "previous_sibling": "node_1_1559741657321"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Sorry, I did not understand you... can you please type the genre again?"
-              },
-              {
-                "text": "It seems like the genre is not available. Can you check any typos and try again?"
-              },
-              {
-                "text": "Mhm, I cannot find the genre you gave in. Please try with another one."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
-      },
-      "parent": "node_20_1559736815535",
-      "context": {
-        "MisUndG": "<? $MisUndG+1 ?>"
-      },
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "user_input",
-        "dialog_node": "node_1_1559741657321"
-      },
-      "conditions": "anything_else",
-      "dialog_node": "node_1_1559661061168",
-      "previous_sibling": "node_1_1559726223361"
+      "previous_sibling": "node_1_1561566267083"
     },
     {
       "type": "standard",
@@ -2926,6 +3019,9 @@
               },
               {
                 "text": "So you like $genre1 movies. What other genre you like?"
+              },
+              {
+                "text": "I also like $genre1 movies! What other genre do you fancy watching?"
               }
             ],
             "response_type": "text",
@@ -3090,6 +3186,9 @@
               },
               {
                 "text": "Ok, I go, but I've seen things you people wouldn't believe..."
+              },
+              {
+                "text": "Bye! I will be back though..."
               }
             ],
             "response_type": "text",
@@ -3121,6 +3220,9 @@
               },
               {
                 "text": "So you want a recommendation, great!"
+              },
+              {
+                "text": "Let's see if I find a good recommendation for you."
               }
             ],
             "response_type": "text",
@@ -3139,7 +3241,7 @@
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "random"
           },
           {
             "title": "",
@@ -3200,7 +3302,7 @@
                 "text": "Sorry, I am lost. You mean you need support with a product or need a recommendation?"
               },
               {
-                "text": "I did not get you. If you want I can help you with a product or a recommendation."
+                "text": "I did not get you. But for sure, I can help you with a product or a recommendation."
               },
               {
                 "text": "Sorry, I am not following you... May I assist you with a product or a recommendation?"
@@ -3231,13 +3333,16 @@
           {
             "values": [
               {
-                "text": "Ok, it looks like I cannot help you."
+                "text": "Ok, it looks like I cannot help you then..."
               },
               {
                 "text": "It seems I cannot support you properly. "
               },
               {
                 "text": "I think I am not communicating properly with you, sorry."
+              },
+              {
+                "text": "I am sorry to sense that I cannot understand you clearly..."
               }
             ],
             "response_type": "text",
@@ -3304,10 +3409,10 @@
                 "text": "Just tell me what are you looking for:"
               },
               {
-                "text": "What do you need?"
+                "text": "So what do you need?"
               },
               {
-                "text": "What are you intereseted in?"
+                "text": "What are you intereseted into?"
               },
               {
                 "text": "May I help you with one of the following?"
