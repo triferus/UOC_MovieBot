@@ -8,6 +8,7 @@ The Dialogflow folder contains the initial DialogFlow bot support files:
 - VisualStudio.rar contains the WebHook created
 
 The IBM_Watson folder contains the final IBM assistant bot support files:
+- The bot is reachable online: https://assistant-chat-eu-gb.watsonplatform.net/web/public/c3e65089-1ec3-47df-a02d-0ba60372634e
 - .JSON archives correspond to the bot itself (intents, entities and dialog) and can be uploaded as a skill to any IBM assistant
 - .txt archives refer to the different web actions created (also available in the body document)
 
