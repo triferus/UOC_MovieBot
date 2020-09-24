@@ -1,7 +1,9 @@
 # UOC_MovieBot
-Support documentation to the UOC master's thesis: Chatbot implementation as customer service support for an entertainment company. 
+Documentation to the UOC master's thesis: Chatbot implementation as customer service support for an entertainment company. 
 
 Author is Adrià Riera, supervisor Rafael Luque Ocaña.
+
+The archive UOC_FMT_Chatbot Implementation_ARiera is the body of the thesis.
 
 The IBM_Watson folder contains the final IBM assistant bot support files:
 - The bot is reachable online: https://assistant-chat-eu-gb.watsonplatform.net/web/public/c3e65089-1ec3-47df-a02d-0ba60372634e
